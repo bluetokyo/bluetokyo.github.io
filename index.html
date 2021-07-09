@@ -7,39 +7,44 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<meta name="theme-color" content="#3ed2a7">
 	
-	<link rel="shortcut icon" href="./favicon.jpg" />
+	<link rel="shortcut icon" href="./logo.png" />
 	
-	<title>Ave HTML Template</title>
+	<title>BLUE TOKYO</title>
 	
-	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Poppins:600,700" rel="stylesheet">
 	
 	<link rel="stylesheet" href="assets/vendors/liquid-icon/liquid-icon.min.css" />
 	<link rel="stylesheet" href="assets/vendors/font-awesome/css/font-awesome.min.css" />
 	<link rel="stylesheet" href="assets/css/theme-vendors.min.css" />
 	<link rel="stylesheet" href="assets/css/theme.min.css" />
-	<link rel="stylesheet" href="assets/css/themes/services.css" />
+	<link rel="stylesheet" href="assets/css/themes/virtus-1.css" />
+
+	<link rel="stylesheet" type="text/css" href="./assets/vendors/revolution/css/settings.css">
 	
 	<!-- Head Libs -->
 	<script async src="assets/vendors/modernizr.min.js"></script>
 	
 </head>
-<body data-mobile-nav-trigger-alignment="right" data-mobile-nav-align="left" data-mobile-nav-style="minimal" data-mobile-nav-shceme="gray" data-mobile-header-scheme="gray" data-mobile-nav-breakpoint="1199">
+<body data-mobile-nav-trigger-alignment="right" data-mobile-nav-align="left" data-mobile-nav-style="classic" data-mobile-nav-shceme="gray" data-mobile-header-scheme="gray" data-mobile-nav-breakpoint="1199">
 	
 	<div id="wrap">
 		
-		<header class="main-header main-header-overlay bg-white" data-sticky-header="true">
+		<header class="main-header main-header-overlay bb-fade-white-015" data-sticky-header="true" data-sticky-options='{ "stickyTrigger": "first-section" }'>
 			
 			<div class="mainbar-wrap">
-				
-				<div class="container mainbar-container">
+				<div class="megamenu-hover-bg"></div><!-- /.megamenu-hover-bg -->
+				<div class="container-fluid mainbar-container">
 					<div class="mainbar">
-						<div class="row mainbar-row align-items-lg-stretch">
+						<div class="row mainbar-row align-items-lg-stretch px-4">
 							
-							<div class="col">
+							<div class="col pr-5">
 								<div class="navbar-header">
-									<a class="navbar-brand" href="index-services.html" rel="home">
-										<img class="logo-default" style="height: 30px;" src="./images/logo.png" alt="Ave HTML Template">
-										
+									<a class="navbar-brand pt-20 pb-20" href="index.html" rel="home">
+										<span class="navbar-brand-inner">
+											<img class="logo-sticky" src="" alt="Logo">
+											<img class="mobile-logo-default" src="" alt="Logo">
+											<img class="logo-default" src="" alt="Logo">
+										</span>
 									</a>
 									<button type="button" class="navbar-toggle collapsed nav-trigger style-mobile" data-toggle="collapse" data-target="#main-header-collapse" aria-expanded="false" data-changeclassnames='{ "html": "mobile-nav-activated overflow-hidden" }'>
 										<span class="sr-only">Toggle navigation</span>
@@ -52,13 +57,14 @@
 								</div><!-- /.navbar-header -->
 							</div><!-- /.col -->
 							
-							<div class="col text-right">
+							<div>
 								
-								<div class="collapse navbar-collapse" id="main-header-collapse" aria-expanded="false" role="tablist">
+								<div class="collapse navbar-collapse" id="main-header-collapse">
 									
-									<ul id="primary-nav" class="main-nav ld_header_menu_5c51ac47950e6 nav align-items-lg-stretch justify-content-lg-end" data-submenu-options='{ "toggleType": "fade", "handler": "mouse-in-out" }'>
-										<li>
-											<a href="#">
+									<ul id="primary-nav" class="main-nav nav align-items-lg-stretch justify-content-lg-center" data-submenu-options='{ "toggleType":"fade", "handler":"mouse-in-out" }' data-localscroll="true">
+										
+										<li class="active">
+											<a href="#content">
 												<span class="link-icon"></span>
 												<span class="link-txt">
 													<span class="link-ext"></span>
@@ -67,7 +73,16 @@
 											</a>
 										</li>
 										<li>
-											<a href="#">
+											<a href="#movie">
+												<span class="link-icon"></span>
+												<span class="link-txt">
+													<span class="link-ext"></span>
+													<span class="txt">Movie</span>
+												</span>
+											</a>
+										</li>
+										<li>
+											<a href="#about">
 												<span class="link-icon"></span>
 												<span class="link-txt">
 													<span class="link-ext"></span>
@@ -76,25 +91,34 @@
 											</a>
 										</li>
 										<li>
-											<a href="#">
+											<a href="#media">
 												<span class="link-icon"></span>
 												<span class="link-txt">
 													<span class="link-ext"></span>
-													<span class="txt">Service</span>
+													<span class="txt">Media</span>
 												</span>
 											</a>
 										</li>
 										<li>
-											<a href="#">
+											<a href="#members">
 												<span class="link-icon"></span>
 												<span class="link-txt">
 													<span class="link-ext"></span>
-													<span class="txt">Menters</span>
+													<span class="txt">Members</span>
 												</span>
 											</a>
 										</li>
 										<li>
-											<a href="#">
+											<a href="#goods">
+												<span class="link-icon"></span>
+												<span class="link-txt">
+													<span class="link-ext"></span>
+													<span class="txt">Goods</span>
+												</span>
+											</a>
+										</li>
+										<li>
+											<a href="#contact">
 												<span class="link-icon"></span>
 												<span class="link-txt">
 													<span class="link-ext"></span>
@@ -102,645 +126,1049 @@
 												</span>
 											</a>
 										</li>
-									</ul>
 									
-								</div><!-- /.collapse -->
+									</ul><!-- /#primary-nav  -->
+								
+								</div><!-- /#main-header-collapse -->
 								
 							</div><!-- /.col -->
-							
-						</div><!-- /.maonbar-row -->
+						
+						</div><!-- /.mainbar-row -->
 					</div><!-- /.mainbar -->
 				</div><!-- /.mainbar-container -->
-				
 			</div><!-- /.mainbar-wrap -->
 			
-		</header>
-		
+		</header><!-- /.main-header -->
+
 		<main id="content" class="content">
-			
-			<section
-			class="vc_row fullheight d-flex flex-wrap align-items-center bg-cover bg-center py-6"
-			data-row-bg="./images/remote.jpg"
-			>
 
-			<span class="row-bg-loader"></span>
-			
-			<div class="container">
-				<div class="row">
-					
-					<div
-						class="lqd-column col-md-7"
-						data-custom-animations="true"
-						data-ca-options='{"triggerHandler":"inview","animationTarget":"all-childs","duration":"1200","delay":"150","easing":"easeOutQuint","direction":"forward","initValues":{"translateY":91, "opacity": 0},"animations":{"translateY":0, "opacity": 1}}'>
-						
-						<h2
-						class="text-white mask-text font-weight-bold mt-4 pr-md-7"
-						data-fittext="true"
-						data-fittext-options='{ "compressor":0.5,"maxFontSize": 55,"minFontSize": 36 }'
-						data-split-text="true"
-						data-split-options='{"type":"lines"}'
-						>オンラインでGDを練習しよう。</h2>
-						
-						<a href="#" class="btn btn-solid semi-round btn-bordered border-thin" data-localscroll="true" data-localscroll-options='{ "scrollBelowSection":true }'>
-							<span>
-								<span class="btn-txt">今すぐ参加</span>
-								<span class="btn-icon"><i class="fa fa-angle-right"></i></span>
-							</span>
-						</a>
-						
-					</div><!-- /.col-md-7 -->
-					
-				</div><!-- /.row -->
-			</div><!-- /.container -->
-			
-		</section>
+			<section class="vc_row mb-50 fullheight">
 
-		<section class="vc_row pt-80 pb-0">
-			<div class="container">
-				<div class="row" data-custom-animations="true" data-ca-options='{"triggerHandler":"inview","animationTarget":".lqd-column","duration":"1200","delay":"160","easing":"easeOutQuint","direction":"forward","initValues":{"translateY":40,"opacity":0},"animations":{"translateY":0,"opacity":1}}'>
-					
-					<div class="lqd-column col-md-4 col-sm-12 mb-50">
-						
-						<div class="iconbox iconbox-xl iconbox-heading-sm" data-animate-icon="true" data-plugin-options='{"color": "#d75b92"}'>
-							<div class="iconbox-icon-wrap">
-								<span class="iconbox-icon-container">
-									<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="64px" height="64px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve"> <defs xmlns="http://www.w3.org/2000/svg"> <linearGradient gradientUnits="userSpaceOnUse" id="grad414533" x1="0%" y1="0%" x2="0%" y2="100%"> <stop offset="0%" stop-color="#d75b92"></stop> <stop offset="100%" stop-color="#d75b92"></stop> </linearGradient> </defs> <g> <path fill="none" stroke="url(#grad414533)" stroke-width="2" stroke-miterlimit="10" d="M28,19.001A4,4 0,1,1 36,19.001A4,4 0,1,1 28,19.001" style="stroke-dasharray: 26, 28; stroke-dashoffset: 0;"></path> <path fill="none" stroke="url(#grad414533)" stroke-width="2" stroke-miterlimit="10" d="M45,21.023C44.968,13.276,39.181,7,32,7 s-13,6.276-13,14.023C19,31.046,31.979,47,31.979,47S45.043,31.046,45,21.023z" style="stroke-dasharray: 102, 104; stroke-dashoffset: 0;"></path> </g> <path fill="none" stroke="url(#grad414533)" stroke-width="2" stroke-miterlimit="10" d="M21,37L12,37L1,57L32,57L63,57L52,37L43,37" style="stroke-dasharray: 126, 128; stroke-dashoffset: 0;"></path> </svg>
+				<div id="rev_slider_1_1_wrapper" class="rev_slider_wrapper fullscreen-container" data-alias="virtuslider"
+					data-source="gallery" style="background:transparent;padding:0px;">
+					<!-- START REVOLUTION SLIDER 5.4.8.3 fullscreen mode -->
+					<div id="rev_slider_1_1" class="rev_slider fullscreenbanner" style="display:none;" data-version="5.4.8.3">
+						<ul>
+							<!-- SLIDE  -->
+							<li data-index="rs-1" data-transition="crossfade" data-slotamount="default" data-hideafterloop="0"
+								data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="default"
+								data-thumb="assets/demo/sliders/virtus-1/virtus-50x25.jpg" data-rotate="0" data-saveperformance="off" data-title="Virtus"
+								data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7=""
+								data-param8="" data-param9="" data-param10="" data-description="">
+								<!-- MAIN IMAGE -->
+								<img src="performance.png" alt="" title="virtus" width="3500" height="2091"
+									data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off"
+									class="rev-slidebg" data-no-retina>
+								<!-- LAYERS -->
+							</li>
+						</ul>
+						<div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div>
+					</div>
+				</div><!-- END REVOLUTION SLIDER -->
+				
+			</section>
+
+			<section id="movie" class="vc_row pt-120 pb-120 bg-cover bg-center" data-parallax="true" data-parallax-options='{"parallaxBG": true}' style="background-image: url(./three.png);">
+				<div class="container">
+					<div class="row d-flex flex-wrap align-items-center">
+
+						<div class="lqd-column col-md-7 col-xs-12">
+							
+							<h2
+								class="text-white"
+								data-fittext="true"
+								data-fittext-options='{"compressor": 0.5, "maxFontSize": 40}'
+								style="background:rgba(10, 10, 10, 0.8);line-height: 1;padding: 5px 10px;">
+								新体操で舞台を創りたい
+							</h2>
+
+							<div class="row">
+								<div class="lqd-column col-md-10">
+
+									<p class="font-size-18 lh-175 text-fade-white-06" style="line-height: 1;padding: 5px 10px;"><span style="padding:20;background:rgba(10, 10, 10, 0.8);">ストリートダンス×男子新体操のプロ集団。高い芸術性を兼ね備えたアクロバティックな身体表現。</span></p>
+
+								</div><!-- /.lqd-column col-md-10 -->
+							</div><!-- /.row -->
+
+						</div><!-- /.lqd-column col-md-7 -->
+
+						<div class="lqd-column col-md-5 col-xs-12 text-md-center">
+
+							<a href="https://youtu.be/GkVOYSthMWo" class="btn btn-naked btn-gradient fresco btn-icon-block btn-icon-top btn-icon-circle btn-icon-solid btn-icon-xxlg btn-icon-ripple">
+								<span>
+									<span class="btn-icon">
+										<span class="btn-gradient-bg"></span>
+										<i class="fa fa-play"></i>
+									</span>
 								</span>
-							</div><!-- /.iconbox-icon-wrap -->
-							<div class="contents">
-								<h3>隔週で開催されるGD道場</h3>
-								<p>GDの練習会は週に1, 2回不定期で開催。一度の開催につき全国から30名の参加者を募集します。</p>
-							</div><!-- /.contents -->
-						</div><!-- /.iconbox -->
-						
-					</div><!-- /.col-md-3 col-sm-6 -->
-					
-					<div class="lqd-column col-md-4 col-sm-12 mb-50">
-						
-						<div class="iconbox iconbox-xl iconbox-heading-sm" data-animate-icon="true" data-plugin-options='{"color": "#d75b92"}'>
-							<div class="iconbox-icon-wrap">
-								<span class="iconbox-icon-container">
-									<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="64px" height="64px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve"><defs xmlns="http://www.w3.org/2000/svg"><linearGradient gradientUnits="userSpaceOnUse" id="grad230052" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" stop-color="rgb(215, 91, 146)"></stop><stop offset="100%" stop-color="rgb(215, 91, 146)"></stop></linearGradient></defs> <g> <path fill="none" stroke="url(#grad230052)" stroke-width="2" stroke-miterlimit="10" d="M46,10L18,10" style="stroke-dasharray: 28, 30; stroke-dashoffset: 0;"></path> <path fill="none" stroke="url(#grad230052)" stroke-width="2" stroke-miterlimit="10" d="M12,10L1,10L1,58L63,58L63,10L52,10" style="stroke-dasharray: 180, 182; stroke-dashoffset: 0;"></path> <path fill="none" stroke="url(#grad230052)" stroke-width="2" stroke-miterlimit="10" d="M12 6 L18 6 L18 14 L12 14 Z" style="stroke-dasharray: 28, 30; stroke-dashoffset: 0;"></path> <path fill="none" stroke="url(#grad230052)" stroke-width="2" stroke-miterlimit="10" d="M46 6 L52 6 L52 14 L46 14 Z" style="stroke-dasharray: 28, 30; stroke-dashoffset: 0;"></path> </g> <path fill="none" stroke="url(#grad230052)" stroke-width="2" stroke-miterlimit="10" d="M32,29L32,47" style="stroke-dasharray: 18, 20; stroke-dashoffset: 0;"></path> <path fill="none" stroke="url(#grad230052)" stroke-width="2" stroke-miterlimit="10" d="M41,38L23,38" style="stroke-dasharray: 18, 20; stroke-dashoffset: 0;"></path> <path fill="none" stroke="url(#grad230052)" stroke-width="2" stroke-miterlimit="10" d="M1,18L63,18" style="stroke-dasharray: 62, 64; stroke-dashoffset: 0;"></path> </svg>
-								</span>
-							</div><!-- /.iconbox-icon-wrap -->
-							<div class="contents">
-								<h3>講師陣の良質なサポート</h3>
-								<p>GD道場はさまざまな就活支援団体と提携。豊富な就活実績をもつ講師陣が質の高いサポートを保証します</p>
-							</div><!-- /.contents -->
-						</div><!-- /.iconbox -->
-						
-					</div><!-- /.col-md-3 col-sm-6 -->
-					
-					<div class="lqd-column col-md-4 col-sm-12 mb-50">
-						
-						<div class="iconbox iconbox-xl iconbox-heading-sm" data-animate-icon="true" data-plugin-options='{"color": "#d75b92"}'>
-							<div class="iconbox-icon-wrap">
-								<span class="iconbox-icon-container">
-									<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="64px" height="64px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve"><defs xmlns="http://www.w3.org/2000/svg"><linearGradient gradientUnits="userSpaceOnUse" id="grad587722" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" stop-color="rgb(215, 91, 146)"></stop><stop offset="100%" stop-color="rgb(215, 91, 146)"></stop></linearGradient></defs> <path fill="none" stroke="url(#grad587722)" stroke-width="2" stroke-miterlimit="10" d="M1 11 L63 11 L63 53 L1 53 Z" style="stroke-dasharray: 208, 210; stroke-dashoffset: 0;"></path> <path fill="none" stroke="url(#grad587722)" stroke-width="2" stroke-miterlimit="10" d="M1,17L63,17" style="stroke-dasharray: 62, 64; stroke-dashoffset: 0;"></path> <path fill="none" stroke="url(#grad587722)" stroke-width="2" stroke-miterlimit="10" d="M1,25L63,25" style="stroke-dasharray: 62, 64; stroke-dashoffset: 0;"></path> <path fill="none" stroke="url(#grad587722)" stroke-width="2" stroke-miterlimit="10" d="M6,47L10,47" style="stroke-dasharray: 4, 6; stroke-dashoffset: 0;"></path> <path fill="none" stroke="url(#grad587722)" stroke-width="2" stroke-miterlimit="10" d="M12,47L41,47" style="stroke-dasharray: 29, 31; stroke-dashoffset: 0;"></path> </svg>
-								</span>
-							</div><!-- /.iconbox-icon-wrap -->
-							<div class="contents">
-								<h3>豪華な来場特典</h3>
-								<p>「GDの極意」やその日のテーマ解説といったスライド資料はお持ち帰りいただけます。本番前の対策にお使いください！</p>
-							</div><!-- /.contents -->
-						</div><!-- /.iconbox -->
-						
-					</div><!-- /.col-md-3 col-sm-6 -->
-				</div><!-- /.row -->
-			</div><!-- /.container -->
-		</section>
+							</a>
 
-		<section class="vc_row" style="background: rgba(29,30,31, 0.98);">
-			<div class="container">
-				<div class="row d-flex flex-wrap align-items-center">
+						</div><!-- /.lqd-column col-md-5 col-xs-12 -->
 
-					<div class="lqd-column col-md-5 col-xs-12 px-md-4 text-center">
+					</div><!-- /.row -->
+				</div><!-- /.container -->
+			</section>
+
+			<section id="about" class="vc_row pt-80 pb-80">
+				<div class="container">
+					<div class="row d-flex flex-wrap align-items-center">
+
+						<div class="lqd-column col-md-8 col-md-offset-2">
+
+							<header class="fancy-title text-center mb-60">
+								<h2>About</h2>
+							</header>
+
+						</div><!-- /.lqd-column col-md-8 col-md-offset-2 -->
+
 						
-						<div class="lqd-column-inner bg-white border-radius-6 px-3 px-md-4 pt-40 pb-40">
+						<div class="lqd-column col-md-6 col-xs-12">
+
+							<figure class="mb-5 mb-md-0">
+								<img src="./all_members.jpg" alt="Macbook">
+							</figure>
+
+						</div><!-- /.lqd-column col-md-6 -->
+
+						<div class="lqd-column col-md-6 col-xs-12 pl-md-6">
 
 							<header class="fancy-title">
-								<h2 class="mb-2 font-size-30 font-weight-light">GD道場に参加する</h2>
-								<p class="mt-0">全国から道場生たちが集結します。本番に備えて、彼らと切磋琢磨しながらGD力を底上げしましょう！</p>
-							</header><!-- /.fancy-title -->
+								<h2 class="h3 mb-4"style="text-decoration: underline">世界初！男子新体操アスリートが結成したアクロバットプロパフォーマンスユニット</h2>
+								<p class="font-size-17 lh-185">“男子新体操選手のセカンドキャリアとしてエンターテイメントの世界でプロフェッショナルとして活躍できる人材を育てたい”<br/>
+									青森山田高校男子新体操部監督荒川栄氏の想いから世界初の男子新体操×ストリートダンスプロユニットBLUE TOKYOは生まれた。<br/>
+									アスリートとして研ぎ澄まされた肉体が音楽に合わせてシンクロし躍動するダイナミックなパフォーマンスは、日本発祥競技である男子新体操と現代日本のストリートダンスを融合して魅せる、唯一無二のエンターテイメント。
+								</p>
+							</header>
 
-							<div class="contact-form contact-form-inputs-filled contact-form-button-block font-size-14">
+						</div><!-- /.lqd-column col-md-6 -->
+
+					</div><!-- /.row -->
+				</div><!-- /.container -->
+			</section>
+
+			<section id="media" class="vc_row">
+				<div class="container">
+					<div class="row">
+
+						<div class="lqd-column col-md-8 col-md-offset-2">
+
+							<header class="fancy-title text-center mb-60">
+								<h2>Media</h2>
+							</header>
+
+						</div><!-- /.lqd-column col-md-8 col-md-offset-2 -->
+
+						<div class="lqd-column col-md-4">
+
+							<div class="fancy-box fancy-box-heading-custom fancy-box-classic">
+								<div class="cb-img-container mb-4">
+									<figure class="fancy-box-image loaded">
+										<img src="assets/demo/misc/fb-28.jpg" alt="No Coding">
+									</figure>
+									<div class="cb-img-btn">
+										<div class="cb-img-btn-bg"></div>
+										<a href="#" class="liquid-overlay-link"></a>
+										<div class="cb-img-btn-inner">
+											<a href="#" class="btn btn-naked ld_button_5c7fc49d34c89">
+												<span>
+													<span class="btn-txt">詳しく見る</span>
+													<span class="btn-icon"><i class="fa fa-angle-right"></i></span>
+												</span>
+											</a>
+										</div><!-- /.cb-img-btn-bg -->
+									</div><!-- /.cb-img=btn -->
+								</div><!-- /.cb-img-container -->
+								<div class="fancy-box-contents">
+									<div class="fancy-box-header">
+										<h3 class="font-size-19 mt-30 mb-10">歌舞伎</h3>
+										<p>「青森から全国、そして世界へ」の志と、アスリートとして魂を育んだ青森県の「青（BLUE）」を胸に、2010年に結成。</p>
+									</div><!-- /.fancy-box-header -->
+								</div><!-- /.fancy-box-contents -->
+							</div><!-- /.fancy-box -->
+
+						</div><!-- /.lqd-column col-md-4 -->
+
+						<div class="lqd-column col-md-4">
+
+							<div class="fancy-box fancy-box-heading-custom fancy-box-classic">
+								<div class="cb-img-container mb-4">
+									<figure class="fancy-box-image loaded">
+										<img src="assets/demo/misc/fb-29.jpg" alt="No Coding">
+									</figure>
+									<div class="cb-img-btn">
+										<div class="cb-img-btn-bg"></div>
+										<a href="#" class="liquid-overlay-link"></a>
+										<div class="cb-img-btn-inner">
+											<a href="#" class="btn btn-naked ld_button_5c7fc49d34c89">
+												<span>
+													<span class="btn-txt">詳しく見る</span>
+													<span class="btn-icon"><i class="fa fa-angle-right"></i></span>
+												</span>
+											</a>
+										</div><!-- /.cb-img-btn-bg -->
+									</div><!-- /.cb-img=btn -->
+								</div><!-- /.cb-img-container -->
+								<div class="fancy-box-contents">
+									<div class="fancy-box-header">
+										<h3 class="font-size-19 mt-30 mb-10">LIVEパフォーマンス</h3>
+										<p>「青森から全国、そして世界へ」の志と、アスリートとして魂を育んだ青森県の「青（BLUE）」を胸に、2010年に結成。</p>
+									</div><!-- /.fancy-box-header -->
+								</div><!-- /.fancy-box-contents -->
+							</div><!-- /.fancy-box -->
+
+						</div><!-- /.lqd-column col-md-4 -->
+
+						<div class="lqd-column col-md-4">
+
+							<div class="fancy-box fancy-box-heading-custom fancy-box-classic">
+								<div class="cb-img-container mb-4">
+									<figure class="fancy-box-image loaded">
+										<img src="assets/demo/misc/fb-30.jpg" alt="No Coding">
+									</figure>
+									<div class="cb-img-btn">
+										<div class="cb-img-btn-bg"></div>
+										<a href="#" class="liquid-overlay-link"></a>
+										<div class="cb-img-btn-inner">
+											<a href="#" class="btn btn-naked ld_button_5c7fc49d34c89">
+												<span>
+													<span class="btn-txt">詳しく見る</span>
+													<span class="btn-icon"><i class="fa fa-angle-right"></i></span>
+												</span>
+											</a>
+										</div><!-- /.cb-img-btn-bg -->
+									</div><!-- /.cb-img=btn -->
+								</div><!-- /.cb-img-container -->
+								<div class="fancy-box-contents">
+									<div class="fancy-box-header">
+										<h3 class="font-size-19 mt-30 mb-10">海外遠征</h3>
+										<p>「青森から全国、そして世界へ」の志と、アスリートとして魂を育んだ青森県の「青（BLUE）」を胸に、2010年に結成。</p>
+									</div><!-- /.fancy-box-header -->
+								</div><!-- /.fancy-box-contents -->
+							</div><!-- /.fancy-box -->
+
+						</div><!-- /.lqd-column col-md-4 -->
+
+						<div class="lqd-column col-md-4">
+
+							<div class="fancy-box fancy-box-heading-custom fancy-box-classic">
+								<div class="cb-img-container mb-4">
+									<figure class="fancy-box-image loaded">
+										<img src="assets/demo/misc/fb-28.jpg" alt="No Coding">
+									</figure>
+									<div class="cb-img-btn">
+										<div class="cb-img-btn-bg"></div>
+										<a href="#" class="liquid-overlay-link"></a>
+										<div class="cb-img-btn-inner">
+											<a href="#" class="btn btn-naked ld_button_5c7fc49d34c89">
+												<span>
+													<span class="btn-txt">詳しく見る</span>
+													<span class="btn-icon"><i class="fa fa-angle-right"></i></span>
+												</span>
+											</a>
+										</div><!-- /.cb-img-btn-bg -->
+									</div><!-- /.cb-img=btn -->
+								</div><!-- /.cb-img-container -->
+								<div class="fancy-box-contents">
+									<div class="fancy-box-header">
+										<h3 class="font-size-19 mt-30 mb-10">TV/CM</h3>
+										<p>「青森から全国、そして世界へ」の志と、アスリートとして魂を育んだ青森県の「青（BLUE）」を胸に、2010年に結成。</p>
+									</div><!-- /.fancy-box-header -->
+								</div><!-- /.fancy-box-contents -->
+							</div><!-- /.fancy-box -->
+
+						</div><!-- /.lqd-column col-md-4 -->
+
+						<div class="lqd-column col-md-4">
+
+							<div class="fancy-box fancy-box-heading-custom fancy-box-classic">
+								<div class="cb-img-container mb-4">
+									<figure class="fancy-box-image loaded">
+										<img src="assets/demo/misc/fb-29.jpg" alt="No Coding">
+									</figure>
+									<div class="cb-img-btn">
+										<div class="cb-img-btn-bg"></div>
+										<a href="#" class="liquid-overlay-link"></a>
+										<div class="cb-img-btn-inner">
+											<a href="#" class="btn btn-naked ld_button_5c7fc49d34c89">
+												<span>
+													<span class="btn-txt">詳しく見る</span>
+													<span class="btn-icon"><i class="fa fa-angle-right"></i></span>
+												</span>
+											</a>
+										</div><!-- /.cb-img-btn-bg -->
+									</div><!-- /.cb-img=btn -->
+								</div><!-- /.cb-img-container -->
+								<div class="fancy-box-contents">
+									<div class="fancy-box-header">
+										<h3 class="font-size-19 mt-30 mb-10">舞台</h3>
+										<p>「青森から全国、そして世界へ」の志と、アスリートとして魂を育んだ青森県の「青（BLUE）」を胸に、2010年に結成。</p>
+									</div><!-- /.fancy-box-header -->
+								</div><!-- /.fancy-box-contents -->
+							</div><!-- /.fancy-box -->
+
+						</div><!-- /.lqd-column col-md-4 -->
+
+						<div class="lqd-column col-md-4">
+
+							<div class="fancy-box fancy-box-heading-custom fancy-box-classic">
+								<div class="cb-img-container mb-4">
+									<figure class="fancy-box-image loaded">
+										<img src="assets/demo/misc/fb-30.jpg" alt="No Coding">
+									</figure>
+									<div class="cb-img-btn">
+										<div class="cb-img-btn-bg"></div>
+										<a href="#" class="liquid-overlay-link"></a>
+										<div class="cb-img-btn-inner">
+											<a href="#" class="btn btn-naked ld_button_5c7fc49d34c89">
+												<span>
+													<span class="btn-txt">詳しく見る</span>
+													<span class="btn-icon"><i class="fa fa-angle-right"></i></span>
+												</span>
+											</a>
+										</div><!-- /.cb-img-btn-bg -->
+									</div><!-- /.cb-img=btn -->
+								</div><!-- /.cb-img-container -->
+								<div class="fancy-box-contents">
+									<div class="fancy-box-header">
+										<h3 class="font-size-19 mt-30 mb-10">学校訪問</h3>
+										<p>「青森から全国、そして世界へ」の志と、アスリートとして魂を育んだ青森県の「青（BLUE）」を胸に、2010年に結成。</p>
+									</div><!-- /.fancy-box-header -->
+								</div><!-- /.fancy-box-contents -->
+							</div><!-- /.fancy-box -->
+
+						</div><!-- /.lqd-column col-md-4 -->
+
+					</div><!-- /.row -->
+				</div><!-- /.container -->
+			</section>
+
+			<section id="members" class="vc_row pt-85">
+				<div class="container">
+					<div class="row">
+						
+						<div class="lqd-column col-md-12 text-center">
+
+							<header class="fancy-title">
+								<h6 class="font-size-14 text-uppercase ltr-sp-175 opacity-07">Our Performers</h6>
+								<h2>Team members</h2>
+							</header>
+
+						</div><!-- /.col-md-12 text-center -->
+
+						<div class="lqd-column col-md-3">
+
+							<div class="ld-tm pos-rel text-light">
+								<div class="ld-tm-img">
+									<figure>
+										<img src="kyohei_ohshita.jpg" alt="Team Members">
+									</figure>
+								</div><!-- /.ld-tm-img -->
+								<div class="ld-tm-info ld-overlay d-flex flex-column align-items-center justify-content-center">
+									<h3 class="ld-tm-name">大舌 恭平</h3>
+									<h6 class="ld-tm-pos text-uppercase">kyohei ohshita</h6>
+									<ul class="ld-tm-social social-icon mt-5">
+										<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+										<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+									</ul>
+								</div><!-- /.ld-tm-info -->
+							</div><!-- /.ld-team-member -->
+
+						</div><!-- /.col-md-4 -->
+
+						<div class="lqd-column col-md-3">
+
+							<div class="ld-tm pos-rel text-light">
+								<div class="ld-tm-img">
+									<figure>
+										<img src="tomoki_fujita.jpg" alt="Team Members">
+									</figure>
+								</div><!-- /.ld-tm-img -->
+								<div class="ld-tm-info ld-overlay d-flex flex-column align-items-center justify-content-center">
+									<h3 class="ld-tm-name">藤田 朋輝</h3>
+									<h6 class="ld-tm-pos text-uppercase">tomoki fujita</h6>
+									<ul class="ld-tm-social social-icon mt-5">
+										<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+										<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+									</ul>
+								</div><!-- /.ld-tm-info -->
+							</div><!-- /.ld-team-member -->
+
+						</div><!-- /.col-md-4 -->
+
+						<div class="lqd-column col-md-3">
+
+							<div class="ld-tm pos-rel text-light">
+								<div class="ld-tm-img">
+									<figure>
+										<img src="katsuyuki_kasuga.jpg" alt="Team Members">
+									</figure>
+								</div><!-- /.ld-tm-img -->
+								<div class="ld-tm-info ld-overlay d-flex flex-column align-items-center justify-content-center">
+									<h3 class="ld-tm-name">春日 克之</h3>
+									<h6 class="ld-tm-pos text-uppercase">katsuyuki kasuga</h6>
+									<ul class="ld-tm-social social-icon mt-5">
+										<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+										<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+									</ul>
+								</div><!-- /.ld-tm-info -->
+							</div><!-- /.ld-team-member -->
+
+						</div><!-- /.col-md-4 -->
+
+						<div class="lqd-column col-md-3">
+
+							<div class="ld-tm pos-rel text-light">
+								<div class="ld-tm-img">
+									<figure>
+										<img src="kento_shiino.jpg" alt="Team Members">
+									</figure>
+								</div><!-- /.ld-tm-img -->
+								<div class="ld-tm-info ld-overlay d-flex flex-column align-items-center justify-content-center">
+									<h3 class="ld-tm-name">椎野 健人</h3>
+									<h6 class="ld-tm-pos text-uppercase">kento shiino</h6>
+									<ul class="ld-tm-social social-icon mt-5">
+										<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+										<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+									</ul>
+								</div><!-- /.ld-tm-info -->
+							</div><!-- /.ld-team-member -->
+
+						</div><!-- /.col-md-4 -->
+
+						<div class="lqd-column col-md-3">
+
+							<div class="ld-tm pos-rel text-light">
+								<div class="ld-tm-img">
+									<figure>
+										<img src="haruki_matsuda.jpg" alt="Team Members">
+									</figure>
+								</div><!-- /.ld-tm-img -->
+								<div class="ld-tm-info ld-overlay d-flex flex-column align-items-center justify-content-center">
+									<h3 class="ld-tm-name">松田 陽樹</h3>
+									<h6 class="ld-tm-pos text-uppercase">haruki matsuda</h6>
+									<ul class="ld-tm-social social-icon mt-5">
+										<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+										<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+									</ul>
+								</div><!-- /.ld-tm-info -->
+							</div><!-- /.ld-team-member -->
+
+						</div><!-- /.col-md-4 -->
+
+						<div class="lqd-column col-md-3">
+
+							<div class="ld-tm pos-rel text-light">
+								<div class="ld-tm-img">
+									<figure>
+										<img src="shota_kamei.jpg" alt="Team Members">
+									</figure>
+								</div><!-- /.ld-tm-img -->
+								<div class="ld-tm-info ld-overlay d-flex flex-column align-items-center justify-content-center">
+									<h3 class="ld-tm-name">亀井 翔太</h3>
+									<h6 class="ld-tm-pos text-uppercase">shota kamei</h6>
+									<ul class="ld-tm-social social-icon mt-5">
+										<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+										<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+									</ul>
+								</div><!-- /.ld-tm-info -->
+							</div><!-- /.ld-team-member -->
+
+						</div><!-- /.col-md-4 -->
+
+						<div class="lqd-column col-md-3">
+
+							<div class="ld-tm pos-rel text-light">
+								<div class="ld-tm-img">
+									<figure>
+										<img src="takaya_sato.jpg" alt="Team Members">
+									</figure>
+								</div><!-- /.ld-tm-img -->
+								<div class="ld-tm-info ld-overlay d-flex flex-column align-items-center justify-content-center">
+									<h3 class="ld-tm-name">佐藤 喬也</h3>
+									<h6 class="ld-tm-pos text-uppercase">takaya sato</h6>
+									<ul class="ld-tm-social social-icon mt-5">
+										<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+										<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+									</ul>
+								</div><!-- /.ld-tm-info -->
+							</div><!-- /.ld-team-member -->
+
+						</div><!-- /.col-md-4 -->
+
+						<div class="lqd-column col-md-3">
+
+							<div class="ld-tm pos-rel text-light">
+								<div class="ld-tm-img">
+									<figure>
+										<img src="satoshi_ishizuka.jpg" alt="Team Members">
+									</figure>
+								</div><!-- /.ld-tm-img -->
+								<div class="ld-tm-info ld-overlay d-flex flex-column align-items-center justify-content-center">
+									<h3 class="ld-tm-name">石塚 智司</h3>
+									<h6 class="ld-tm-pos text-uppercase">satoshi ishizuka</h6>
+									<ul class="ld-tm-social social-icon mt-5">
+										<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+										<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+									</ul>
+								</div><!-- /.ld-tm-info -->
+							</div><!-- /.ld-team-member -->
+
+						</div><!-- /.col-md-4 -->
+
+						<div class="lqd-column col-md-3">
+
+							<div class="ld-tm pos-rel text-light">
+								<div class="ld-tm-img">
+									<figure>
+										<img src="yuta_takahashi.jpg" alt="Team Members">
+									</figure>
+								</div><!-- /.ld-tm-img -->
+								<div class="ld-tm-info ld-overlay d-flex flex-column align-items-center justify-content-center">
+									<h3 class="ld-tm-name">高橋 雄太</h3>
+									<h6 class="ld-tm-pos text-uppercase">yuta takahashi</h6>
+									<ul class="ld-tm-social social-icon mt-5">
+										<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+										<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+									</ul>
+								</div><!-- /.ld-tm-info -->
+							</div><!-- /.ld-team-member -->
+
+						</div><!-- /.col-md-4 -->
+
+						<div class="lqd-column col-md-3">
+
+							<div class="ld-tm pos-rel text-light">
+								<div class="ld-tm-img">
+									<figure>
+										<img src="yusuke_ishii.jpg" alt="Team Members">
+									</figure>
+								</div><!-- /.ld-tm-img -->
+								<div class="ld-tm-info ld-overlay d-flex flex-column align-items-center justify-content-center">
+									<h3 class="ld-tm-name">石井 侑佑</h3>
+									<h6 class="ld-tm-pos text-uppercase">yusuke ishii</h6>
+									<ul class="ld-tm-social social-icon mt-5">
+										<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+										<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+									</ul>
+								</div><!-- /.ld-tm-info -->
+							</div><!-- /.ld-team-member -->
+
+						</div><!-- /.col-md-4 -->
+
+						<div class="lqd-column col-md-3">
+
+							<div class="ld-tm pos-rel text-light">
+								<div class="ld-tm-img">
+									<figure>
+										<img src="tomoki_arai.jpg" alt="Team Members">
+									</figure>
+								</div><!-- /.ld-tm-img -->
+								<div class="ld-tm-info ld-overlay d-flex flex-column align-items-center justify-content-center">
+									<h3 class="ld-tm-name">新井 智貴</h3>
+									<h6 class="ld-tm-pos text-uppercase">tomoki arai</h6>
+									<ul class="ld-tm-social social-icon mt-5">
+										<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+										<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+									</ul>
+								</div><!-- /.ld-tm-info -->
+							</div><!-- /.ld-team-member -->
+
+						</div><!-- /.col-md-4 -->
+
+						<div class="lqd-column col-md-3">
+
+							<div class="ld-tm pos-rel text-light">
+								<div class="ld-tm-img">
+									<figure>
+										<img src="kenshiro_watanabe.jpg" alt="Team Members">
+									</figure>
+								</div><!-- /.ld-tm-img -->
+								<div class="ld-tm-info ld-overlay d-flex flex-column align-items-center justify-content-center">
+									<h3 class="ld-tm-name">渡辺 剣史郎</h3>
+									<h6 class="ld-tm-pos text-uppercase">kenshiro watanabe</h6>
+									<ul class="ld-tm-social social-icon mt-5">
+										<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+										<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+									</ul>
+								</div><!-- /.ld-tm-info -->
+							</div><!-- /.ld-team-member -->
+
+						</div><!-- /.col-md-4 -->
+
+						<div class="lqd-column col-md-3">
+
+							<div class="ld-tm pos-rel text-light">
+								<div class="ld-tm-img">
+									<figure>
+										<img src="shun_ueno.jpg"" alt="Team Members">
+									</figure>
+								</div><!-- /.ld-tm-img -->
+								<div class="ld-tm-info ld-overlay d-flex flex-column align-items-center justify-content-center">
+									<h3 class="ld-tm-name">植野 洵</h3>
+									<h6 class="ld-tm-pos text-uppercase">shun ueno</h6>
+									<ul class="ld-tm-social social-icon mt-5">
+										<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+										<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+									</ul>
+								</div><!-- /.ld-tm-info -->
+							</div><!-- /.ld-team-member -->
+
+						</div><!-- /.col-md-4 -->
+
+					</div><!-- /.row -->
+				</div><!-- /.container -->
+			</section>
+
+			<section id="goods" class="vc_row pt-80 pb-80">
+
+				<div class="container">
+					<div class="row">
+
+						<div class="lqd-column col-md-6 col-md-offset-3">
+
+							<header class="fancy-title text-center">
+								<h2 class="h3 mb-4">Goods(たくさんあるのでスライダー形式のほうが良いかも)</h2>
+								<!--<p class="font-size-17 lh-185">A digital marketing company that can produce custom-built websites and mobile applications.</p>-->
+							</header>
+
+						</div><!-- /.lqd-column col-md-6 col-md-offset-3 -->
+
+					</div><!-- /.row -->
+				</div><!-- /.container -->
+
+				<div class="container-fluid px-0">
+					<div class="row mx-0">
+
+						<div class="lqd-column col-md-12 px-0">
+
+							<div class="carousel-container carousel-nav-floated carousel-nav-center carousel-nav-middle carousel-nav-xl carousel-nav-solid carousel-nav-square carousel-dots-style1">
+
+								<div class="carousel-items row mx-0" data-lqd-flickity='{"cellAlign":"center","prevNextButtons":true,"buttonsAppendTo":"self","pageDots":false,"groupCells":true,"wrapAround":true,"pauseAutoPlayOnHover":false,"navArrow":{"prev":"<i class=\"fa fa-angle-left\"></i>","next":"<i class=\"fa fa-angle-right\"></i>"}}'>
+
+									<div class="carousel-item lqd-column col-md-3 col-sm-6 col-xs-12 px-0">
+
+										<div class="ld-tm pos-rel text-light mb-0">
+											<div class="ld-tm-img">
+												<figure>
+													<img src="./assets/demo/team/team-30.jpg" alt="Judy Abott">
+												</figure>
+											</div>
+											<div class="ld-tm-info ld-overlay d-flex flex-column align-items-center justify-content-center bg-gradient-black-transparent-bt">
+												<h3 class="ld-tm-name">マスク</h3>
+												<!-- <h6 class="ld-tm-pos text-uppercase">CEO</h6>
+												<ul class="ld-tm-social social-icon mt-5">
+													<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+													<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+													<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+													<li><a href="#"><i class="fa fa-github"></i></a></li>
+												</ul> -->
+											</div><!-- /.ld-tm-info -->
+										</div><!-- /.ld-tm -->
+
+									</div><!-- /.lqd-column col-md-3 col-sm-6 col-xs-12 -->
+
+									<div class="carousel-item lqd-column col-md-3 col-sm-6 col-xs-12 px-0">
+
+										<div class="ld-tm pos-rel text-light mb-0">
+											<div class="ld-tm-img">
+												<figure>
+													<img src="./assets/demo/team/team-31.jpg" alt="Judy Abott">
+												</figure>
+											</div>
+											<div class="ld-tm-info ld-overlay d-flex flex-column align-items-center justify-content-center bg-gradient-black-transparent-bt">
+												<h3 class="ld-tm-name">Tシャツ</h3>
+											</div><!-- /.ld-tm-info -->
+										</div><!-- /.ld-tm -->
+
+									</div><!-- /.lqd-column col-md-3 col-sm-6 col-xs-12 -->
+
+									<div class="carousel-item lqd-column col-md-3 col-sm-6 col-xs-12 px-0">
+
+										<div class="ld-tm pos-rel text-light mb-0">
+											<div class="ld-tm-img">
+												<figure>
+													<img src="./assets/demo/team/team-32.jpg" alt="Judy Abott">
+												</figure>
+											</div>
+											<div class="ld-tm-info ld-overlay d-flex flex-column align-items-center justify-content-center bg-gradient-black-transparent-bt">
+												<h3 class="ld-tm-name">長袖Tシャツ</h3>
+											</div><!-- /.ld-tm-info -->
+										</div><!-- /.ld-tm -->
+
+									</div><!-- /.lqd-column col-md-3 col-sm-6 col-xs-12 -->
+
+									<div class="carousel-item lqd-column col-md-3 col-sm-6 col-xs-12 px-0">
+
+										<div class="ld-tm pos-rel text-light mb-0">
+											<div class="ld-tm-img">
+												<figure>
+													<img src="./assets/demo/team/team-33.jpg" alt="Judy Abott">
+												</figure>
+											</div>
+											<div class="ld-tm-info ld-overlay d-flex flex-column align-items-center justify-content-center bg-gradient-black-transparent-bt">
+												<h3 class="ld-tm-name">キッズTシャツ</h3>
+											</div><!-- /.ld-tm-info -->
+										</div><!-- /.ld-tm -->
+
+									</div><!-- /.lqd-column col-md-3 col-sm-6 col-xs-12 -->
+
+									<div class="carousel-item lqd-column col-md-3 col-sm-6 col-xs-12 px-0">
+
+										<div class="ld-tm pos-rel text-light mb-0">
+											<div class="ld-tm-img">
+												<figure>
+													<img src="./assets/demo/team/team-31.jpg" alt="Judy Abott">
+												</figure>
+											</div>
+											<div class="ld-tm-info ld-overlay d-flex flex-column align-items-center justify-content-center bg-gradient-black-transparent-bt">
+												<h3 class="ld-tm-name">スウェット</h3>
+											</div><!-- /.ld-tm-info -->
+										</div><!-- /.ld-tm -->
+
+									</div><!-- /.lqd-column col-md-3 col-sm-6 col-xs-12 -->
+
+									<div class="carousel-item lqd-column col-md-3 col-sm-6 col-xs-12 px-0">
+
+										<div class="ld-tm pos-rel text-light mb-0">
+											<div class="ld-tm-img">
+												<figure>
+													<img src="./assets/demo/team/team-33.jpg" alt="Judy Abott">
+												</figure>
+											</div>
+											<div class="ld-tm-info ld-overlay d-flex flex-column align-items-center justify-content-center bg-gradient-black-transparent-bt">
+												<h3 class="ld-tm-name">ピンブローチ</h3>
+											</div><!-- /.ld-tm-info -->
+										</div><!-- /.ld-tm -->
+
+									</div><!-- /.lqd-column col-md-3 col-sm-6 col-xs-12 -->
+
+									<div class="carousel-item lqd-column col-md-3 col-sm-6 col-xs-12 px-0">
+
+										<div class="ld-tm pos-rel text-light mb-0">
+											<div class="ld-tm-img">
+												<figure>
+													<img src="./assets/demo/team/team-31.jpg" alt="Judy Abott">
+												</figure>
+											</div>
+											<div class="ld-tm-info ld-overlay d-flex flex-column align-items-center justify-content-center bg-gradient-black-transparent-bt">
+												<h3 class="ld-tm-name">ロゴチャーム</h3>
+											</div><!-- /.ld-tm-info -->
+										</div><!-- /.ld-tm -->
+
+									</div><!-- /.lqd-column col-md-3 col-sm-6 col-xs-12 -->
+
+									<div class="carousel-item lqd-column col-md-3 col-sm-6 col-xs-12 px-0">
+
+										<div class="ld-tm pos-rel text-light mb-0">
+											<div class="ld-tm-img">
+												<figure>
+													<img src="./assets/demo/team/team-33.jpg" alt="Judy Abott">
+												</figure>
+											</div>
+											<div class="ld-tm-info ld-overlay d-flex flex-column align-items-center justify-content-center bg-gradient-black-transparent-bt">
+												<h3 class="ld-tm-name">スポーツタオル</h3>
+											</div><!-- /.ld-tm-info -->
+										</div><!-- /.ld-tm -->
+
+									</div><!-- /.lqd-column col-md-3 col-sm-6 col-xs-12 -->
+
+									<div class="carousel-item lqd-column col-md-3 col-sm-6 col-xs-12 px-0">
+
+										<div class="ld-tm pos-rel text-light mb-0">
+											<div class="ld-tm-img">
+												<figure>
+													<img src="./assets/demo/team/team-31.jpg" alt="Judy Abott">
+												</figure>
+											</div>
+											<div class="ld-tm-info ld-overlay d-flex flex-column align-items-center justify-content-center bg-gradient-black-transparent-bt">
+												<h3 class="ld-tm-name">アイマスク</h3>
+											</div><!-- /.ld-tm-info -->
+										</div><!-- /.ld-tm -->
+
+									</div><!-- /.lqd-column col-md-3 col-sm-6 col-xs-12 -->
+									
+									<div class="carousel-item lqd-column col-md-3 col-sm-6 col-xs-12 px-0">
+
+										<div class="ld-tm pos-rel text-light mb-0">
+											<div class="ld-tm-img">
+												<figure>
+													<img src="./assets/demo/team/team-33.jpg" alt="Judy Abott">
+												</figure>
+											</div>
+											<div class="ld-tm-info ld-overlay d-flex flex-column align-items-center justify-content-center bg-gradient-black-transparent-bt">
+												<h3 class="ld-tm-name">手ぬぐい</h3>
+											</div><!-- /.ld-tm-info -->
+										</div><!-- /.ld-tm -->
+
+									</div><!-- /.lqd-column col-md-3 col-sm-6 col-xs-12 -->
+
+									<div class="carousel-item lqd-column col-md-3 col-sm-6 col-xs-12 px-0">
+
+										<div class="ld-tm pos-rel text-light mb-0">
+											<div class="ld-tm-img">
+												<figure>
+													<img src="./assets/demo/team/team-31.jpg" alt="Judy Abott">
+												</figure>
+											</div>
+											<div class="ld-tm-info ld-overlay d-flex flex-column align-items-center justify-content-center bg-gradient-black-transparent-bt">
+												<h3 class="ld-tm-name">マスクケース</h3>
+											</div><!-- /.ld-tm-info -->
+										</div><!-- /.ld-tm -->
+
+									</div><!-- /.lqd-column col-md-3 col-sm-6 col-xs-12 -->
+
+
+								</div><!-- /.carousel-items row -->
+
+							</div><!-- /.carousel-container -->
+
+						</div><!-- /.lqd-column col-md-12 -->
+
+					</div><!-- /.row -->
+				</div><!-- /.container-fluid -->
+
+			</section>
+
+			<section id="contact" class="vc_row py-5 bg-cover bg-right-top" style="background-image: url(./bg_img.png);">
+
+				<div class="liquid-row-overlay" style="background:linear-gradient(267deg, rgba(11,204,238,0) 0%, rgb(53, 58, 88) 100%)"></div>
+
+				<div class="container">
+					<div class="row">
+
+						<div
+							class="lqd-column col-md-3"
+							data-custom-animations="true"
+							data-ca-options='{"triggerHandler":"inview","animationTarget":"all-childs","duration":"1200","delay":"120","easing":"easeOutQuint","direction":"forward","initValues":{"translateY":50,"opacity":0},"animations":{"translateY":0,"opacity":1}}'>
+
+							<h2 class="mt-0 font-size-46 lh-11 ltr-sp--025 text-white">Contact</h2>
+
+							<p class="font-size-16 text-fade-white-05 mb-3">mailaddress@gmail.com</p>
+							<p class="font-size-16 text-fade-white-05 mb-3">〒112-0004<br>
+							東京都文京区後楽１丁目３−６１</p>
+							<p class="font-size-16 text-fade-white-05 mb-5">012-3456-7890</p>
+
+							<ul class="social-icon scheme-white social-icon-md">
+								<li><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
+							</ul>
+
+						</div><!-- /.lqd-column col-md-3 -->
+
+						<div
+						class="lqd-column col-md-8 col-md-offset-1"
+						data-custom-animations="true"
+						data-ca-options='{"triggerHandler":"inview","animationTarget":"all-childs","duration":"1400","delay":"120", "startDelay": 600,"easing":"easeOutQuint","direction":"forward","initValues":{"scale":1.1,"opacity":0},"animations":{"scale":1,"opacity":1}}'>
+
+							<div class="contact-form contact-form-inputs-sm contact-form-inputs-underlined contact-form-button-filled contact-form-button-border-thick contact-form-button-md contact-form-button-block">
 								<form action="assets/php/mailer.php" method="post" novalidate="novalidate">
 									<div class="row">
-										<div class="col-md-12">
-											<input class="bg-gray text-dark" type="text" name="name" aria-required="true" aria-invalid="false" placeholder="氏名" required>
-										</div><!-- /.col-md-12 -->
-										<div class="col-md-12">
-											<input class="bg-gray text-dark" type="email" name="email" aria-required="true" aria-invalid="false" placeholder="大学名" required>
-										</div><!-- /.col-md-12 -->
-										<div class="col-md-12">
-											<input class="bg-gray text-dark" type="tel" name="mobile" aria-required="true" aria-invalid="false" placeholder="メールアドレス" required>
-										</div><!-- /.col-md-12 -->
-										<div class="col-md-12">
-											<select name="menu-296" class="bg-gray text-dark" aria-required="true" aria-invalid="false">
-												<option value="Construction 1">4/3（土）13:00~15:00</option>
-												<option value="Construction 2">4/10（土）13:00~15:00</option>
-												<option value="Construction 3">4/17（土）13:00~15:00</option>
-												<option value="Construction 4">4/24（土）13:00~15:00</option>
+										<div class="col-md-6">
+											<input type="text" name="name" aria-required="true" aria-invalid="false" placeholder="姓" required>
+										</div><!-- /.col-md-6 -->
+										<div class="col-md-6">
+											<input type="text" name="lname" aria-required="true" aria-invalid="false" placeholder="名" style="color:lightgrey;" required>
+										</div><!-- /.col-md-6 -->
+										<div class="col-md-6">
+											<input type="email" name="email" aria-required="true" aria-invalid="false" placeholder="メールアドレス" required>
+										</div><!-- /.col-md-6 -->
+										<div class="col-md-6">
+											<select name="country" aria-required="true" aria-invalid="false" required>
+												<option value=""><span style="color:lightgrey;">---</span></option>
+												<option value="コメント・要望">コメント・要望</option>
+												<option value="お仕事の依頼">お仕事の依頼</option>
+												<option value="ファンレター">ファンレター</option>
+												<option value="業務連絡">業務連絡</option>
+												<option value="その他">その他</option>
 											</select>
+										</div><!-- /.col-md-6 -->
+										<div class="col-md-12">
+											<textarea cols="10" rows="4" name="message" aria-required="true" aria-invalid="false" placeholder="本文" required></textarea>
 										</div><!-- /.col-md-12 -->
-										<div class="col-md-12 text-md-right">
-											<input type="submit" value="参加登録">
+										<div class="col-md-12">
+											<input type="submit" value="送信" class="font-size-14 ltr-sp-2">
 										</div><!-- /.col-md-12 -->
 									</div><!-- /.row -->
 								</form>
 								<div class="contact-form-result hidden"></div><!-- /.contact-form-result -->
 							</div><!-- /.contact-form -->
 
-						</div><!-- /.lqd-column-inner -->
+						</div><!-- /.lqd-column col-md-8 col-md-offset-2 -->
 
-					</div><!-- /.lqd-column col-md-5 -->
+					</div><!-- /.row -->
+				</div><!-- /.container -->
 
-					<div class="lqd-column col-md-6 col-md-offset-1 col-xs-12">
-
-						<div class="ld-fancy-heading mb-30 pt-150">
-							<h2 class="text-white" data-text-rotator="true">
-								なぜGDを練習する必要があるの？
-							</h2>
-						</div><!-- /.ld-fancy-heading -->
-
-						<div class="row mb-10">
-							
-							<div class="lqd-column col-sm-12">
-
-								<p style="color:white">GDは、企業選考に高い割合で導入されているのに対して、その対策が他の選考要素に比べて不十分という現状があります。GDはテーマやメンバーによって全く結果が異なります。そのため、とにかく本番までに練習の機会を設けることが重要です。練習会に参加したり就活仲間で集まって、ディスカッションを行う機会を作りましょう！</p>
-
-							</div><!-- /.lqd-column col-sm-6 -->
-							
-						</div><!-- /.row -->
-
-						<div class="carousel-container">
-
-							<div class="carousel-items row" data-lqd-flickity='{"autoPlay": true}'>
-						
-								<div class="carousel-item col-xs-12">
-
-									<p style="color:white">各種選考の導入率</p>
-
-									<div class="liquid-progressbar liquid-progressbar-sm liquid-progressbar-circle" data-progressbar="true" data-progressbar-options='{"value":93,"suffix":"%"}'>
-										<div class="liquid-progressbar-inner">
-											<span class="liquid-progressbar-bar">
-												<span class="liquid-progressbar-percentage font-size-12 text-uppercase ltr-sp-2 text-white"></span>
-											</span>
-										</div><!-- /.liquid-progressbar-inner -->
-										<div class="liquid-progressbar-details">
-											<h3 class="liquid-progressbar-title font-size-12 text-uppercase ltr-sp-2 text-white">書類選考</h3>
-										</div><!-- /.liquid-progressbar-details -->
-									</div><!-- /.liquid-progressbar -->
+			</section>
 			
-									<div class="liquid-progressbar liquid-progressbar-sm liquid-progressbar-circle" data-progressbar="true" data-progressbar-options='{"value":45,"suffix":"%"}'>
-										<div class="liquid-progressbar-inner">
-											<span class="liquid-progressbar-bar">
-												<span class="liquid-progressbar-percentage font-size-12 text-uppercase ltr-sp-2 text-white"></span>
-											</span>
-										</div><!-- /.liquid-progressbar-inner -->
-										<div class="liquid-progressbar-details">
-											<h3 class="liquid-progressbar-title font-size-12 text-uppercase ltr-sp-2 text-white">筆記試験</h3>
-										</div><!-- /.liquid-progressbar-details -->
-									</div><!-- /.liquid-progressbar -->
-			
-									<div class="liquid-progressbar liquid-progressbar-sm liquid-progressbar-circle" data-progressbar="true" data-progressbar-options='{"value":35,"suffix":"%"}'>
-										<div class="liquid-progressbar-inner">
-											<span class="liquid-progressbar-bar">
-												<span class="liquid-progressbar-percentage font-size-12 text-uppercase ltr-sp-2 text-white"></span>
-											</span>
-										</div><!-- /.liquid-progressbar-inner -->
-										<div class="liquid-progressbar-details">
-											<h3 class="liquid-progressbar-title font-size-12 text-uppercase ltr-sp-2 text-white">GD</h3>
-										</div><!-- /.liquid-progressbar-details -->
-									</div><!-- /.liquid-progressbar -->
-			
-									<div class="liquid-progressbar liquid-progressbar-sm liquid-progressbar-circle" data-progressbar="true" data-progressbar-options='{"value":29,"suffix":"%"}'>
-										<div class="liquid-progressbar-inner">
-											<span class="liquid-progressbar-bar">
-												<span class="liquid-progressbar-percentage font-size-12 text-uppercase ltr-sp-2 text-white"></span>
-											</span>
-										</div><!-- /.liquid-progressbar-inner -->
-										<div class="liquid-progressbar-details">
-											<h3 class="liquid-progressbar-title font-size-12 text-uppercase ltr-sp-2 text-white">個人面接</h3>
-										</div><!-- /.liquid-progressbar-details -->
-									</div><!-- /.liquid-progressbar -->
-			
-								</div><!-- /.carousel-item -->
-
-								<div class="carousel-item col-xs-12">
-									<p style="color:white">どんな対策を行った？</p>
-									<div class="liquid-progressbar liquid-progressbar-sm liquid-progressbar-circle" data-progressbar="true" data-progressbar-options='{"value":48,"suffix":"%"}'>
-										<div class="liquid-progressbar-inner">
-											<span class="liquid-progressbar-bar">
-												<span class="liquid-progressbar-percentage font-size-12 text-uppercase ltr-sp-2 text-white"></span>
-											</span>
-										</div><!-- /.liquid-progressbar-inner -->
-										<div class="liquid-progressbar-details">
-											<h3 class="liquid-progressbar-title font-size-12 text-uppercase ltr-sp-2 text-white">ESの書き方</h3>
-										</div><!-- /.liquid-progressbar-details -->
-									</div><!-- /.liquid-progressbar -->
-
-									<div class="liquid-progressbar liquid-progressbar-sm liquid-progressbar-circle" data-progressbar="true" data-progressbar-options='{"value":45,"suffix":"%"}'>
-										<div class="liquid-progressbar-inner">
-											<span class="liquid-progressbar-bar">
-												<span class="liquid-progressbar-percentage font-size-12 text-uppercase ltr-sp-2 text-white"></span>
-											</span>
-										</div><!-- /.liquid-progressbar-inner -->
-										<div class="liquid-progressbar-details">
-											<h3 class="liquid-progressbar-title font-size-12 text-uppercase ltr-sp-2 text-white">自己分析</h3>
-										</div><!-- /.liquid-progressbar-details -->
-									</div><!-- /.liquid-progressbar -->
-			
-									<div class="liquid-progressbar liquid-progressbar-sm liquid-progressbar-circle" data-progressbar="true" data-progressbar-options='{"value":37,"suffix":"%"}'>
-										<div class="liquid-progressbar-inner">
-											<span class="liquid-progressbar-bar">
-												<span class="liquid-progressbar-percentage font-size-12 text-uppercase ltr-sp-2 text-white"></span>
-											</span>
-										</div><!-- /.liquid-progressbar-inner -->
-										<div class="liquid-progressbar-details">
-											<h3 class="liquid-progressbar-title font-size-12 text-uppercase ltr-sp-2 text-white">業界研究</h3>
-										</div><!-- /.liquid-progressbar-details -->
-									</div><!-- /.liquid-progressbar -->
-
-									<div class="liquid-progressbar liquid-progressbar-sm liquid-progressbar-circle" data-progressbar="true" data-progressbar-options='{"value":11,"suffix":"%"}'>
-										<div class="liquid-progressbar-inner">
-											<span class="liquid-progressbar-bar">
-												<span class="liquid-progressbar-percentage font-size-12 text-uppercase ltr-sp-2 text-white"></span>
-											</span>
-										</div><!-- /.liquid-progressbar-inner -->
-										<div class="liquid-progressbar-details">
-											<h3 class="liquid-progressbar-title font-size-12 text-uppercase ltr-sp-2 text-white">GD</h3>
-										</div><!-- /.liquid-progressbar-details -->
-									</div><!-- /.liquid-progressbar -->
-									</div><!-- /.liquid-progressbar -->
-								</div><!-- /.carousel-item -->
-						
-							</div><!-- /.carousel-items -->
-						
-						</div><!-- /.carousel-container -->
-
-
-					</div><!-- /.lqd-column col-md-6 col-md-offset-1 -->
-
-				</div><!-- /.row -->
-			</div><!-- /.container -->
-		</section>
-
-		<section class="vc_row pt-130 pb-80">
-			
-			<div class="container">
-				
-				<div class="row">
-					
-					<div class="lqd-column col-md-6 col-md-offset-3">
-						
-						<header class="fancy-title text-center mb-75">
-							<h2>優秀な講師陣</h2>
-							<p class="font-size-18 lh-16 px-6">株式会社Wividで就活支援を行っている、豊富な実績と経験を持つ講師陣が皆さんのGD力の向上をサポートします。</p>
-						</header><!-- /.fancy-title -->
-						
-					</div><!-- /.col-md-6 col-md-offset-3 -->
-					
-				</div><!-- /.row -->
-				
-				<div class="row">
-					
-					<div class="lqd-column col-md-3 col-sm-6">
-						
-						<div class="liquid-img-group-single mb-20" data-reveal="true" data-reveal-options='{"direction":"bt"}'>
-							<div class="liquid-img-group-img-container">
-								<div class="liquid-img-container-inner">
-									<figure>
-										<img src="./images/shinshin.png" alt="Loretta Dean" />
-									</figure>
-								</div><!-- /.liquid-img-container-inner -->
-							</div><!-- /.liquid-img-group-img-container -->
-						</div><!-- /.liquid-img-group-single -->
-						
-						<div class="ld-fancy-heading mask-text">
-							<h3
-							class="font-size-20 mb-1"
-							data-split-text="true"
-							data-custom-animations="true"
-							data-ca-options='{"triggerHandler":"inview","animationTarget":".split-inner","duration":700,"startDelay":"300","delay":100,"easing":"easeOutQuint","direction":"forward","initValues":{"translateY":50},"animations":{"translateY":0}}'
-							data-split-options='{"type":"words"}'><span class="ld-fh-txt" style="font-weight: 600;">齋藤 信也</span></h3>
-						</div><!-- /.ld-fancy-heading -->
-						<div class="ld-fancy-heading mask-text">
-							<h6
-							class="font-size-14 font-weight-medium"
-							data-split-text="true"
-							data-custom-animations="true"
-							data-ca-options='{"triggerHandler":"inview","animationTarget":".split-inner","duration":700,"startDelay":"600","delay":100,"easing":"easeOutQuint","direction":"forward","initValues":{"translateY":39},"animations":{"translateY":0}}'
-							data-split-options='{"type":"lines"}'><span class="ld-fh-txt">紹介文</span></h6>
-						</div><!-- /.ld-fancy-heading -->
-						
-					</div><!-- /.col-md-3 col-sm-6 -->
-					
-					<div class="lqd-column col-md-3 col-sm-6">
-						
-						<div class="liquid-img-group-single mb-20" data-reveal="true" data-reveal-options='{"direction":"bt"}'>
-							<div class="liquid-img-group-img-container">
-								<div class="liquid-img-container-inner">
-									<figure>
-										<img src="./images/rikuto.png" alt="David Richards" />
-									</figure>
-								</div><!-- /.liquid-img-container-inner -->
-							</div><!-- /.liquid-img-group-img-container -->
-						</div><!-- /.liquid-img-group-single -->
-						
-						<div class="ld-fancy-heading mask-text">
-							<h3
-							class="font-size-20 mb-1"
-							data-split-text="true"
-							data-custom-animations="true"
-							data-ca-options='{"triggerHandler":"inview","animationTarget":".split-inner","duration":700,"startDelay":"300","delay":100,"easing":"easeOutQuint","direction":"forward","initValues":{"translateY":50},"animations":{"translateY":0}}'
-							data-split-options='{"type":"words"}'><span class="ld-fh-txt" style="font-weight: 600;">椎木 陸斗</span></h3>
-						</div><!-- /.ld-fancy-heading -->
-						<div class="ld-fancy-heading mask-text">
-							<h6
-							class="font-size-14 font-weight-medium"
-							data-split-text="true"
-							data-custom-animations="true"
-							data-ca-options='{"triggerHandler":"inview","animationTarget":".split-inner","duration":700,"startDelay":"600","delay":100,"easing":"easeOutQuint","direction":"forward","initValues":{"translateY":39},"animations":{"translateY":0}}'
-							data-split-options='{"type":"lines"}'><span class="ld-fh-txt">紹介文</span></h6>
-						</div><!-- /.ld-fancy-heading -->
-						
-					</div><!-- /.col-md-3 col-sm-6 -->
-					
-					<div class="lqd-column col-md-3 col-sm-6">
-						
-						<div class="liquid-img-group-single mb-20" data-reveal="true" data-reveal-options='{"direction":"bt"}'>
-							<div class="liquid-img-group-img-container">
-								<div class="liquid-img-container-inner">
-									<figure>
-										<img src="./images/mitsuaki.png" alt="Andrea Harman" />
-									</figure>
-								</div><!-- /.liquid-img-container-inner -->
-							</div><!-- /.liquid-img-group-img-container -->
-						</div><!-- /.liquid-img-group-single -->
-						
-						<div class="ld-fancy-heading mask-text">
-							<h3
-							class="font-size-20 mb-1"
-							data-split-text="true"
-							data-custom-animations="true"
-							data-ca-options='{"triggerHandler":"inview","animationTarget":".split-inner","duration":700,"startDelay":"300","delay":100,"easing":"easeOutQuint","direction":"forward","initValues":{"translateY":50},"animations":{"translateY":0}}'
-							data-split-options='{"type":"words"}'><span class="ld-fh-txt" style="font-weight: 600;">平田 光明</span></h3>
-						</div><!-- /.ld-fancy-heading -->
-						<div class="ld-fancy-heading mask-text">
-							<h6
-							class="font-size-14 font-weight-medium"
-							data-split-text="true"
-							data-custom-animations="true"
-							data-ca-options='{"triggerHandler":"inview","animationTarget":".split-inner","duration":700,"startDelay":"600","delay":100,"easing":"easeOutQuint","direction":"forward","initValues":{"translateY":39},"animations":{"translateY":0}}'
-							data-split-options='{"type":"lines"}'><span class="ld-fh-txt">紹介文</span></h6>
-						</div><!-- /.ld-fancy-heading -->
-						
-					</div><!-- /.col-md-3 col-sm-6 -->
-					
-					<div class="lqd-column col-md-3 col-sm-6">
-						
-						<div class="liquid-img-group-single mb-20" data-reveal="true" data-reveal-options='{"direction":"bt"}'>
-							<div class="liquid-img-group-img-container">
-								<div class="liquid-img-container-inner">
-									<figure>
-										<img src="./images/haruka.png" alt="Andrea Harman" />
-									</figure>
-								</div><!-- /.liquid-img-container-inner -->
-							</div><!-- /.liquid-img-group-img-container -->
-						</div><!-- /.liquid-img-group-single -->
-						
-						<div class="ld-fancy-heading mask-text">
-							<h3
-							class="font-size-20 mb-1"
-							data-split-text="true"
-							data-custom-animations="true"
-							data-ca-options='{"triggerHandler":"inview","animationTarget":".split-inner","duration":700,"startDelay":"300","delay":100,"easing":"easeOutQuint","direction":"forward","initValues":{"translateY":50},"animations":{"translateY":0}}'
-							data-split-options='{"type":"words"}'><span class="ld-fh-txt" style="font-weight: 600;">勝守 晴香</span></h3>
-						</div><!-- /.ld-fancy-heading -->
-						<div class="ld-fancy-heading mask-text">
-							<h6
-							class="font-size-14 font-weight-medium"
-							data-split-text="true"
-							data-custom-animations="true"
-							data-ca-options='{"triggerHandler":"inview","animationTarget":".split-inner","duration":700,"startDelay":"600","delay":100,"easing":"easeOutQuint","direction":"forward","initValues":{"translateY":39},"animations":{"translateY":0}}'
-							data-split-options='{"type":"lines"}'><span class="ld-fh-txt">紹介文</span></h6>
-						</div><!-- /.ld-fancy-heading -->
-						
-					</div><!-- /.col-md-3 col-sm-6 -->
-					
-				</div><!-- /.row -->
-				
-			</div><!-- /.container -->
-			
-		</section>
-
-		<section class="vc_row pt-130 pb-110 bg-cover" style="background-image: url(./images/group.jpg);" data-parallax="true" data-parallax-options='{ "parallaxBG": true }'>
-			<div class="container">
-				<div class="row">
-					
-					<div class="lqd-column col-md-3 col-sm-6 text-center">
-						
-						<div class="liquid-counter liquid-counter-default text-white text-center">
-							<div class="liquid-counter-element mb-2" data-fittext="true" data-fittext-options='{ "compressor": 0.5, "minFontSize": 70, "maxFontSize": 70 }' data-enable-counter="true" data-counter-options='{"targetNumber":"10","blurEffect":true}'>
-								<span>10</span>
-							</div><!-- /.liquid-counter-element -->
-							<span class="liquid-counter-text liquid-text-bottom">総開催数</span>
-						</div><!-- /.liquid-counter -->
-						
-					</div><!-- /.col-md-3 col-sm-6 -->
-					
-					<div class="lqd-column col-md-3 col-sm-6 text-center">
-						
-						<div class="liquid-counter liquid-counter-default text-white text-center">
-							<div class="liquid-counter-element mb-2" data-fittext="true" data-fittext-options='{ "compressor": 0.5, "minFontSize": 70, "maxFontSize": 70 }' data-enable-counter="true" data-counter-options='{"targetNumber":"140+","blurEffect":true}'>
-								<span>140+</span>
-							</div><!-- /.liquid-counter-element -->
-							<span class="liquid-counter-text liquid-text-bottom">述べ動員数</span>
-						</div><!-- /.liquid-counter -->
-						
-					</div><!-- /.col-md-3 col-sm-6 -->
-					
-					<div class="lqd-column col-md-3 col-sm-6 text-center">
-						
-						<div class="liquid-counter liquid-counter-default text-white text-center">
-							<div class="liquid-counter-element mb-2" data-fittext="true" data-fittext-options='{ "compressor": 0.5, "minFontSize": 70, "maxFontSize": 70 }' data-enable-counter="true" data-counter-options='{"targetNumber":"92.6%","blurEffect":true}'>
-								<span>92.6%</span>
-							</div><!-- /.liquid-counter-element -->
-							<span class="liquid-counter-text liquid-text-bottom">満足度</span>
-						</div><!-- /.liquid-counter -->
-						
-					</div><!-- /.col-md-3 col-sm-6 -->
-
-					<div class="lqd-column col-md-3 col-sm-6 text-center">
-						
-						<div class="liquid-counter liquid-counter-default text-white text-center">
-							<div class="liquid-counter-element mb-2" data-fittext="true" data-fittext-options='{ "compressor": 0.5, "minFontSize": 70, "maxFontSize": 70 }' data-enable-counter="true" data-counter-options='{"targetNumber":"3825","blurEffect":true}'>
-								<span>3825</span>
-							</div><!-- /.liquid-counter-element -->
-							<span class="liquid-counter-text liquid-text-bottom">コミュニティ登録者数</span>
-						</div><!-- /.liquid-counter -->
-						
-					</div><!-- /.col-md-3 col-sm-6 -->
-					
-				</div><!-- /.row -->
-			</div><!-- /.container -->
-		</section>
-
-		<section class="vc_row pt-100 pb-85" data-custom-animations="true" data-ca-options='{"triggerHandler":"inview","animationTarget":".lqd-column","duration":"1200","delay":"180","easing":"easeOutQuint","direction":"forward","initValues":{"translateY":60,"opacity":0},"animations":{"translateY":0,"opacity":1}}'>
-			<div class="container">
-
-				<div class="row">
-
-					<div class="lqd-column col-md-8 col-md-offset-2">
-
-						<header class="fancy-title text-center mb-50">
-							<h2>参加者の声</h2>
-						</header>
-
-					</div><!-- /.col-md-8 col-md-offset-2 -->
-
-				</div><!-- /.row -->
-
-				<div class="row">
-
-					<div class="lqd-column col-md-4">
-
-						<div class="iconbox iconbox-circle iconbox-sm iconbox-heading-xs border-gray border-gray px-5 py-5">
-							<div class="iconbox-icon-wrap">
-								<span class="iconbox-icon-container">
-									<i class="fa fa-user"></i>
-								</span>
-							</div><!-- /.iconbox -->
-							<div class="contents">
-								<h3>東北大学　布川 陸さん</h3>
-								<p>自分のGoodとMoreを講師の方からフィードバックいただき、次に生かそうと強く思えました。</p>
-							</div><!-- /.iconbox -->
-						</div><!-- /.iconbox -->
-
-					</div><!-- /.col-md-4 -->
-
-					<div class="lqd-column col-md-4">
-
-						<div class="iconbox iconbox-circle iconbox-sm iconbox-heading-xs border-gray border-gray px-5 py-5">
-							<div class="iconbox-icon-wrap">
-								<span class="iconbox-icon-container">
-									<i class="fa fa-user"></i>
-								</span>
-							</div><!-- /.iconbox -->
-							<div class="contents">
-								<h3>京都大学　渡辺 毅さん</h3>
-								<p>テーマに関する解説や各役割の理想の立ち回りについて学べたのがとても良かったです。</p>
-							</div><!-- /.iconbox -->
-						</div><!-- /.iconbox -->
-
-					</div><!-- /.col-md-4 -->
-
-					<div class="lqd-column col-md-4">
-
-						<div class="iconbox iconbox-circle iconbox-sm iconbox-heading-xs border-gray border-gray px-5 py-5">
-							<div class="iconbox-icon-wrap">
-								<span class="iconbox-icon-container">
-									<i class="fa fa-user"></i>
-								</span>
-							</div><!-- /.iconbox -->
-							<div class="contents">
-								<h3>北海道大学　前田 友樹さん</h3>
-								<p>同期たちと切磋琢磨することで、互いのレベルを知ったりこれからのモチベを得ることができました。</p>
-							</div><!-- /.iconbox -->
-						</div><!-- /.iconbox -->
-
-					</div><!-- /.col-md-4 -->
-
-				</div><!-- /.row -->
-
-			</div><!-- /.container -->
-		</section>
-
-		<section class="vc_row pt-55 pb-55 bg-cover" style="background-image: url(./assets/demo/bg/bg-13.jpg)">
-			<div class="container">
-				<div class="row d-flex flex-wrap align-items-center">
-
-					<div class="lqd-column col-md-9 text-center text-md-left">
-						<h2 class="text-white mt-0 mb-3 mb-md-0" data-fittext="true" data-fittext-options='{"compressor": 0.65, "maxFontSize": 37, "minFontSize": 33}'>今しかない！GD練習会に参加しよう</h2>
-					</div><!-- /.col-md-9 text-center text-md-left -->
-
-					<div class="lqd-column col-md-3 text-center text-md-right">
-						<a href="#" class="btn btn-solid text-uppercase semi-round btn-bordered border-thin bg-white text-dark bg-hover-dark text-hover-white btn-light font-size-12 lh-15 px-1">
-							<span>
-								<span class="btn-txt">今すぐ参加</span>
-								<span class="btn-icon"><i class="fa fa-angle-right"></i></span>
-							</span>
-						</a>
-					</div><!-- /.col-md-3 text-center text-md-right -->
-
-				</div><!-- /.row -->
-			</div><!-- /.container -->
-		</section>
+		</main><!-- /#content.content -->
 		
-	</main><!-- /#content.content -->
+		<footer class="main-footer	">
+		
+		<section class="bg-fade-dark-01 pt-35 pb-35 mt-70">
+			<div class="container">
+				<div class="row">
 	
-	<footer class="main-footer bg-shark pt-70">
-		
-		<section>
-			<div class="container">
-				<div class="row d-flex flex-wrap">
-
-					<div class="lqd-column col-md-6 col-sm-12">
-						
-						<h2 class="widget-title text-white text-center">株式会社Wivid</h2>
-						<p></p>
-
-					</div><!-- /.col-md-3 -->
-
-					<div class="lqd-column col-md-3 col-sm-6">
-
-						<h3 class="widget-title text-white">About us</h3>
-						<p>Wividは「私が“最高の私”で、いられる世界を。」をミッションとして掲げ、日本国内の東京・京都・福岡を拠点に、新卒キャリア領域で事業を展開している会社です。</p>
-
-					</div><!-- /.col-md-3 -->
-
-					<div class="lqd-column col-md-3 col-sm-6">
-
-						<h3 class="widget-title text-white">Contact Us</h3>
-						<p class="mb-4">
-							Call: 03 6386 7522 <br>
-							Mail: info@wivid.co.jp <br>
-							Visit: 〒150-0021 <br>
-							東京都渋⾕区恵⽐寿⻄ 1丁⽬33-6 <br>
-							JP noie 恵⽐寿⻄210
-						</p>
-						<ul class="social-icon social-icon-lg">
-							<li><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
-							<li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
-							<li><a href="#" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-						</ul>
-
-					</div><!-- /.col-md-3 -->
-
-				</div><!-- /.row -->
-			</div><!-- /.container -->
-		</section>
-
-		<section class="bt-fade-white-015 bg-dark pt-25 pb-25 mt-50">
-			<div class="container">
-				<div class="row">
-
-					<div class="lqd-column col-md-12 text-center">
-						<p class="my-0">2021 Wivid.co all right reserves.</p>
-					</div><!-- /.col-md-12 text-center -->
-
-				</div><!-- /.row -->
-			</div><!-- /.container -->
-		</section>
-		
-	</footer><!-- /.main-footer -->
+					<div class="lqd-column col-md-6">
 	
-</div><!-- /#wrap -->
+							<ul class="lqd-custom-menu reset-ul inline-nav">
+								<li><a href="#">Footer menu</a></li>
+								<li><a href="#">Footer menu</a></li>
+								<li><a href="#">Footer menu</a></li>
+							</ul>
+	
+					</div><!-- /.col-md-6 -->
+	
+					<div class="lqd-column col-md-6 text-md-right">
+						<p class="my-0 font-size-15 text-underline">© Copyright 2021. BLUE TOKYO all rights reserves.</p>
+					</div><!-- /.col-md-6 text-md-right -->
+	
+				</div><!-- /.row -->
+			</div><!-- /.container -->
+		</section>
+			
+		</footer><!-- /.main-footer -->
+		
+	</div><!-- /#wrap -->
 
-<script src="./assets/vendors/jquery.min.js"></script>
-<script src="./assets/js/theme-vendors.js"></script>
-<script src="./assets/js/theme.min.js"></script>
+	<script src="//maps.googleapis.com/maps/api/js?key={YOUR_API_KEY}"></script>
+
+	<script src="./assets/vendors/jquery.min.js"></script>
+	<script src="./assets/js/theme-vendors.js"></script>
+	<script src="./assets/js/theme.min.js"></script>
+	<script src="./assets/js/liquidAjaxContactForm.min.js"></script>
+	<script src="./assets/js/liquidAjaxMailchimp.min.js"></script>
+
+	<script type="text/javascript" src="./assets/vendors/revolution/js/jquery.themepunch.tools.min.js"></script>
+	<script type="text/javascript" src="./assets/vendors/revolution/js/jquery.themepunch.revolution.min.js"></script>
+
+	<!-- SLIDER REVOLUTION 5.0 EXTENSIONS  (Load Extensions only on Local File Systems !  The following part can be removed on Server for On Demand Loading) -->	
+	<script type="text/javascript" src="./assets/vendors/revolution/js/extensions/revolution.extension.actions.min.js"></script>
+	<script type="text/javascript" src="./assets/vendors/revolution/js/extensions/revolution.extension.carousel.min.js"></script>
+	<script type="text/javascript" src="./assets/vendors/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
+	<script type="text/javascript" src="./assets/vendors/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+	<script type="text/javascript" src="./assets/vendors/revolution/js/extensions/revolution.extension.migration.min.js"></script>
+	<script type="text/javascript" src="./assets/vendors/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+	<script type="text/javascript" src="./assets/vendors/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+	<script type="text/javascript" src="./assets/vendors/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+	<script type="text/javascript" src="./assets/vendors/revolution/js/extensions/revolution.extension.video.min.js"></script>
+
+	<style>
+		#rev_slider_1_1 .metis.tparrows {
+			background: rgba(10, 10, 10, 0.4);
+			padding: 10px;
+			transition: all 0.3s;
+			-webkit-transition: all 0.3s;
+			width: 60px;
+			height: 60px;
+			box-sizing: border-box;
+		}
+		#rev_slider_1_1 .metis.tparrows:before {
+			color: rgb(255, 255, 255);
+			transition: all 0.3s;
+			-webkit-transition: all 0.3s;
+		}
+		#rev_slider_1_1 .metis.tparrows:hover {
+			background: rgba(10, 10, 10, 0.66);
+		}
+		#rev_slider_1_1 .metis.tparrows:hover:before {
+			transform: scale(1.5);
+		}
+	</style>
+	<script type="text/javascript">
+		var revapi1,
+			tpj;
+		(function () {
+			if (!/loaded|interactive|complete/.test(document.readyState)) document.addEventListener("DOMContentLoaded",
+				onLoad);
+			else onLoad();
+
+			function onLoad() {
+				if (tpj === undefined) {
+					tpj = jQuery;
+					if ("off" == "on") tpj.noConflict();
+				}
+				if (tpj("#rev_slider_1_1").revolution == undefined) {
+					revslider_showDoubleJqueryError("#rev_slider_1_1");
+				} else {
+					revapi1 = tpj("#rev_slider_1_1").show().revolution({
+						sliderType: "standard",
+						jsFileLocation: "//virtusone.liquid-themes.com/wp-content/plugins/revslider/public/assets/js/",
+						sliderLayout: "fullscreen",
+						dottedOverlay: "none",
+						delay: 9000,
+						navigation: {
+							keyboardNavigation: "off",
+							keyboard_direction: "horizontal",
+							mouseScrollNavigation: "off",
+							mouseScrollReverse: "default",
+							onHoverStop: "off",
+							arrows: {
+								style: "metis",
+								enable: true,
+								hide_onmobile: true,
+								hide_under: 992,
+								hide_onleave: false,
+								tmp: '',
+								left: {
+									h_align: "left",
+									v_align: "center",
+									h_offset: 0,
+									v_offset: 0
+								},
+								right: {
+									h_align: "right",
+									v_align: "center",
+									h_offset: 0,
+									v_offset: 0
+								}
+							}
+						},
+						responsiveLevels: [1240, 1024, 778, 480],
+						visibilityLevels: [1240, 1024, 778, 480],
+						gridwidth: [1240, 1024, 778, 480],
+						gridheight: [868, 768, 960, 720],
+						lazyType: "none",
+						scrolleffect: {
+							fade: "on",
+							on_slidebg: "on",
+							on_parallax_layers: "on",
+						},
+						parallax: {
+							type: "mouse",
+							origo: "enterpoint",
+							speed: 400,
+							speedbg: 0,
+							speedls: 0,
+							levels: [5, 10, 15, 20, 25, 30, 35, 40, 45, 46, 47, 48, 49, 50, 51, 55],
+						},
+						shadow: 0,
+						spinner: "spinner0",
+						stopLoop: "off",
+						stopAfterLoops: -1,
+						stopAtSlide: -1,
+						shuffle: "off",
+						autoHeight: "off",
+						fullScreenAutoWidth: "off",
+						fullScreenAlignForce: "off",
+						fullScreenOffsetContainer: "",
+						fullScreenOffset: "",
+						disableProgressBar: "on",
+						hideThumbsOnMobile: "off",
+						hideSliderAtLimit: 0,
+						hideCaptionAtLimit: 0,
+						hideAllCaptionAtLilmit: 0,
+						debugMode: false,
+						fallbacks: {
+							simplifyAll: "off",
+							nextSlideOnWindowFocus: "off",
+							disableFocusListener: false,
+						}
+					});
+				}; /* END OF revapi call */
+
+			}; /* END OF ON LOAD FUNCTION */
+		}()); /* END OF WRAPPING FUNCTION */
+	</script>
 
 </body>
 </html>

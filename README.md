@@ -1,1 +1,0 @@
-# wividtohoku.github.io
