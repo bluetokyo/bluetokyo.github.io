@@ -41,9 +41,9 @@
 								<div class="navbar-header">
 									<a class="navbar-brand pt-20 pb-20" href="index.html" rel="home">
 										<span class="navbar-brand-inner">
-											<img class="logo-sticky" src="" alt="Logo">
-											<img class="mobile-logo-default" src="" alt="Logo">
-											<img class="logo-default" src="" alt="Logo">
+											<img class="logo-sticky" src="./bluelogo.svg" alt="Logo" width="70px">
+											<img class="mobile-logo-default" src="./bluelogo.svg" alt="Logo" width="70px">
+											<img class="logo-default" src="./bluelogo.svg" alt="Logo" width="70px">
 										</span>
 									</a>
 									<button type="button" class="navbar-toggle collapsed nav-trigger style-mobile" data-toggle="collapse" data-target="#main-header-collapse" aria-expanded="false" data-changeclassnames='{ "html": "mobile-nav-activated overflow-hidden" }'>
@@ -142,7 +142,7 @@
 
 		<main id="content" class="content">
 
-			<section class="vc_row mb-50 fullheight">
+			<section class="vc_row fullheight">
 
 				<div id="rev_slider_1_1_wrapper" class="rev_slider_wrapper fullscreen-container" data-alias="virtuslider"
 					data-source="gallery" style="background:transparent;padding:0px;">
@@ -246,205 +246,17 @@
 				</div><!-- /.container -->
 			</section>
 
-			<section id="media" class="vc_row">
+			<iframe id="vid" width="100%" src="https://www.youtube.com/embed/933ZD_2HbPU?mute=1&autoplay=1&loop=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<script>
+				window.onload = function(){
+					let width = document.getElementById("vid").getBoundingClientRect();
+					document.getElementById("vid").setAttribute("height", (width.width*0.5625).toString()+"px");
+				}
+			</script>
+
+			<section id="members" class="vc_row mb-50 pt-85">
 				<div class="container">
-					<div class="row">
-
-						<div class="lqd-column col-md-8 col-md-offset-2">
-
-							<header class="fancy-title text-center mb-60">
-								<h2>Media</h2>
-							</header>
-
-						</div><!-- /.lqd-column col-md-8 col-md-offset-2 -->
-
-						<div class="lqd-column col-md-4">
-
-							<div class="fancy-box fancy-box-heading-custom fancy-box-classic">
-								<div class="cb-img-container mb-4">
-									<figure class="fancy-box-image loaded">
-										<img src="assets/demo/misc/fb-28.jpg" alt="No Coding">
-									</figure>
-									<div class="cb-img-btn">
-										<div class="cb-img-btn-bg"></div>
-										<a href="#" class="liquid-overlay-link"></a>
-										<div class="cb-img-btn-inner">
-											<a href="#" class="btn btn-naked ld_button_5c7fc49d34c89">
-												<span>
-													<span class="btn-txt">詳しく見る</span>
-													<span class="btn-icon"><i class="fa fa-angle-right"></i></span>
-												</span>
-											</a>
-										</div><!-- /.cb-img-btn-bg -->
-									</div><!-- /.cb-img=btn -->
-								</div><!-- /.cb-img-container -->
-								<div class="fancy-box-contents">
-									<div class="fancy-box-header">
-										<h3 class="font-size-19 mt-30 mb-10">歌舞伎</h3>
-										<p>「青森から全国、そして世界へ」の志と、アスリートとして魂を育んだ青森県の「青（BLUE）」を胸に、2010年に結成。</p>
-									</div><!-- /.fancy-box-header -->
-								</div><!-- /.fancy-box-contents -->
-							</div><!-- /.fancy-box -->
-
-						</div><!-- /.lqd-column col-md-4 -->
-
-						<div class="lqd-column col-md-4">
-
-							<div class="fancy-box fancy-box-heading-custom fancy-box-classic">
-								<div class="cb-img-container mb-4">
-									<figure class="fancy-box-image loaded">
-										<img src="assets/demo/misc/fb-29.jpg" alt="No Coding">
-									</figure>
-									<div class="cb-img-btn">
-										<div class="cb-img-btn-bg"></div>
-										<a href="#" class="liquid-overlay-link"></a>
-										<div class="cb-img-btn-inner">
-											<a href="#" class="btn btn-naked ld_button_5c7fc49d34c89">
-												<span>
-													<span class="btn-txt">詳しく見る</span>
-													<span class="btn-icon"><i class="fa fa-angle-right"></i></span>
-												</span>
-											</a>
-										</div><!-- /.cb-img-btn-bg -->
-									</div><!-- /.cb-img=btn -->
-								</div><!-- /.cb-img-container -->
-								<div class="fancy-box-contents">
-									<div class="fancy-box-header">
-										<h3 class="font-size-19 mt-30 mb-10">LIVEパフォーマンス</h3>
-										<p>「青森から全国、そして世界へ」の志と、アスリートとして魂を育んだ青森県の「青（BLUE）」を胸に、2010年に結成。</p>
-									</div><!-- /.fancy-box-header -->
-								</div><!-- /.fancy-box-contents -->
-							</div><!-- /.fancy-box -->
-
-						</div><!-- /.lqd-column col-md-4 -->
-
-						<div class="lqd-column col-md-4">
-
-							<div class="fancy-box fancy-box-heading-custom fancy-box-classic">
-								<div class="cb-img-container mb-4">
-									<figure class="fancy-box-image loaded">
-										<img src="assets/demo/misc/fb-30.jpg" alt="No Coding">
-									</figure>
-									<div class="cb-img-btn">
-										<div class="cb-img-btn-bg"></div>
-										<a href="#" class="liquid-overlay-link"></a>
-										<div class="cb-img-btn-inner">
-											<a href="#" class="btn btn-naked ld_button_5c7fc49d34c89">
-												<span>
-													<span class="btn-txt">詳しく見る</span>
-													<span class="btn-icon"><i class="fa fa-angle-right"></i></span>
-												</span>
-											</a>
-										</div><!-- /.cb-img-btn-bg -->
-									</div><!-- /.cb-img=btn -->
-								</div><!-- /.cb-img-container -->
-								<div class="fancy-box-contents">
-									<div class="fancy-box-header">
-										<h3 class="font-size-19 mt-30 mb-10">海外遠征</h3>
-										<p>「青森から全国、そして世界へ」の志と、アスリートとして魂を育んだ青森県の「青（BLUE）」を胸に、2010年に結成。</p>
-									</div><!-- /.fancy-box-header -->
-								</div><!-- /.fancy-box-contents -->
-							</div><!-- /.fancy-box -->
-
-						</div><!-- /.lqd-column col-md-4 -->
-
-						<div class="lqd-column col-md-4">
-
-							<div class="fancy-box fancy-box-heading-custom fancy-box-classic">
-								<div class="cb-img-container mb-4">
-									<figure class="fancy-box-image loaded">
-										<img src="assets/demo/misc/fb-28.jpg" alt="No Coding">
-									</figure>
-									<div class="cb-img-btn">
-										<div class="cb-img-btn-bg"></div>
-										<a href="#" class="liquid-overlay-link"></a>
-										<div class="cb-img-btn-inner">
-											<a href="#" class="btn btn-naked ld_button_5c7fc49d34c89">
-												<span>
-													<span class="btn-txt">詳しく見る</span>
-													<span class="btn-icon"><i class="fa fa-angle-right"></i></span>
-												</span>
-											</a>
-										</div><!-- /.cb-img-btn-bg -->
-									</div><!-- /.cb-img=btn -->
-								</div><!-- /.cb-img-container -->
-								<div class="fancy-box-contents">
-									<div class="fancy-box-header">
-										<h3 class="font-size-19 mt-30 mb-10">TV/CM</h3>
-										<p>「青森から全国、そして世界へ」の志と、アスリートとして魂を育んだ青森県の「青（BLUE）」を胸に、2010年に結成。</p>
-									</div><!-- /.fancy-box-header -->
-								</div><!-- /.fancy-box-contents -->
-							</div><!-- /.fancy-box -->
-
-						</div><!-- /.lqd-column col-md-4 -->
-
-						<div class="lqd-column col-md-4">
-
-							<div class="fancy-box fancy-box-heading-custom fancy-box-classic">
-								<div class="cb-img-container mb-4">
-									<figure class="fancy-box-image loaded">
-										<img src="assets/demo/misc/fb-29.jpg" alt="No Coding">
-									</figure>
-									<div class="cb-img-btn">
-										<div class="cb-img-btn-bg"></div>
-										<a href="#" class="liquid-overlay-link"></a>
-										<div class="cb-img-btn-inner">
-											<a href="#" class="btn btn-naked ld_button_5c7fc49d34c89">
-												<span>
-													<span class="btn-txt">詳しく見る</span>
-													<span class="btn-icon"><i class="fa fa-angle-right"></i></span>
-												</span>
-											</a>
-										</div><!-- /.cb-img-btn-bg -->
-									</div><!-- /.cb-img=btn -->
-								</div><!-- /.cb-img-container -->
-								<div class="fancy-box-contents">
-									<div class="fancy-box-header">
-										<h3 class="font-size-19 mt-30 mb-10">舞台</h3>
-										<p>「青森から全国、そして世界へ」の志と、アスリートとして魂を育んだ青森県の「青（BLUE）」を胸に、2010年に結成。</p>
-									</div><!-- /.fancy-box-header -->
-								</div><!-- /.fancy-box-contents -->
-							</div><!-- /.fancy-box -->
-
-						</div><!-- /.lqd-column col-md-4 -->
-
-						<div class="lqd-column col-md-4">
-
-							<div class="fancy-box fancy-box-heading-custom fancy-box-classic">
-								<div class="cb-img-container mb-4">
-									<figure class="fancy-box-image loaded">
-										<img src="assets/demo/misc/fb-30.jpg" alt="No Coding">
-									</figure>
-									<div class="cb-img-btn">
-										<div class="cb-img-btn-bg"></div>
-										<a href="#" class="liquid-overlay-link"></a>
-										<div class="cb-img-btn-inner">
-											<a href="#" class="btn btn-naked ld_button_5c7fc49d34c89">
-												<span>
-													<span class="btn-txt">詳しく見る</span>
-													<span class="btn-icon"><i class="fa fa-angle-right"></i></span>
-												</span>
-											</a>
-										</div><!-- /.cb-img-btn-bg -->
-									</div><!-- /.cb-img=btn -->
-								</div><!-- /.cb-img-container -->
-								<div class="fancy-box-contents">
-									<div class="fancy-box-header">
-										<h3 class="font-size-19 mt-30 mb-10">学校訪問</h3>
-										<p>「青森から全国、そして世界へ」の志と、アスリートとして魂を育んだ青森県の「青（BLUE）」を胸に、2010年に結成。</p>
-									</div><!-- /.fancy-box-header -->
-								</div><!-- /.fancy-box-contents -->
-							</div><!-- /.fancy-box -->
-
-						</div><!-- /.lqd-column col-md-4 -->
-
-					</div><!-- /.row -->
-				</div><!-- /.container -->
-			</section>
-
-			<section id="members" class="vc_row pt-85">
-				<div class="container">
-					<div class="row">
+					<div class="row" style="text-align: center;">
 						
 						<div class="lqd-column col-md-12 text-center">
 
@@ -455,265 +267,938 @@
 
 						</div><!-- /.col-md-12 text-center -->
 
-						<div class="lqd-column col-md-3">
+						<a href="#modal-1" data-lity="#modal-1">
+							<div class="lqd-column col-sm-6 col-md-3">
 
-							<div class="ld-tm pos-rel text-light">
-								<div class="ld-tm-img">
-									<figure>
-										<img src="kyohei_ohshita.jpg" alt="Team Members">
+								<div class="ld-tm pos-rel text-light">
+									<div class="ld-tm-img">
+										<figure>
+											<img src="kyohei_ohshita.jpg" alt="Team Members">
+										</figure>
+									</div><!-- /.ld-tm-img -->
+									<div class="ld-tm-info ld-overlay d-flex flex-column align-items-center justify-content-center">
+										<h3 class="ld-tm-name">大舌 恭平</h3>
+										<h6 class="ld-tm-pos text-uppercase">kyohei ohshita</h6>
+										<ul class="ld-tm-social social-icon mt-5">
+											<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+											<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+										</ul>
+									</div><!-- /.ld-tm-info -->
+								</div><!-- /.ld-team-member -->
+
+							</div><!-- /.col-md-4 -->
+						</a>
+
+						<div id="modal-1" class="lqd-modal lity-hide">
+							<div class="lqd-modal-inner">
+								<div class="section section-about">
+
+								<div class="lqd-modal-head"></div><!-- /.lqd-modal-head -->
+
+								<div style="padding: 57px 50px 15px 50px;">
+									<div class="row">
+										<div class="col-sm-5">
+											<div style="margin-right: 10%;margin-bottom: 10px;">
+												<img alt="" src="kyohei_ohshita.jpg" class="photo"> 
+											</div>
+										</div>
+											<div class="col-sm-7">
+												<div style="color: #3d4451;padding-bottom: 25px;margin-bottom: 25px;border-bottom: 1px solid #dedede;">
+													<h1 style="font-size: 36px;line-height: 1.1;font-weight: 700;margin-bottom: 5px;"><span>大舌 恭平</span> </h1>
+													<h2 style="color:#828282;font-size: 18px;font-weight: 400;line-height: 1.1;margin-bottom: 0;">kyohei ohshita</h2>
+												</div>
+												<ul class="profile-list">
+													<li class="clearfix"><strong class="title">Place of Birth</strong><span class="cont">岡山県井原市</span></li>
+													<li class="clearfix"><strong class="title">Birthday</strong><span class="cont">1988年10月30日</span></li>
+													<li class="clearfix"><strong class="title">Hobby</strong><span class="cont">音楽・芸術鑑賞</span></li>
+													<li class="clearfix"><strong class="title">Speciality</strong><span class="cont">跳躍力</span></li>
+													<li class="clearfix"><strong class="title">Favorite Words</strong><span class="cont">自由・幸せ・表現</span></li>
+												</ul>
+											</div>
+										
+									</div>
+								</div>
+								<div class="lqd-modal-foot"></div><!-- /.lqd-modal-foot -->
+
+							</div>
+							</div><!-- /.lqd-modal-inner -->
+						</div><!-- /.lqd-modal -->
+
+						<a href="#modal-2" data-lity="#modal-2">
+							<div class="lqd-column col-sm-6 col-md-3">
+
+								<div class="ld-tm pos-rel text-light">
+									<div class="ld-tm-img">
+										<figure>
+											<img src="tomoki_fujita.jpg" alt="Team Members">
+										</figure>
+									</div><!-- /.ld-tm-img -->
+									<div class="ld-tm-info ld-overlay d-flex flex-column align-items-center justify-content-center">
+										<h3 class="ld-tm-name">藤田 朋輝</h3>
+										<h6 class="ld-tm-pos text-uppercase">tomoki fujita</h6>
+										<ul class="ld-tm-social social-icon mt-5">
+											<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+											<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+										</ul>
+									</div><!-- /.ld-tm-info -->
+								</div><!-- /.ld-team-member -->
+
+							</div><!-- /.col-md-4 -->
+						</a>
+
+						<div id="modal-2" class="lqd-modal lity-hide">
+							<div class="lqd-modal-inner">
+								<div class="section section-about">
+
+								<div class="lqd-modal-head"></div><!-- /.lqd-modal-head -->
+
+								<div style="padding: 57px 50px 15px 50px;">
+									<div class="row">
+										<div class="col-sm-5">
+											<div style="margin-right: 10%;margin-bottom: 10px;">
+												<img alt="" src="tomoki_fujita.jpg" class="photo"> 
+											</div>
+										</div>
+											<div class="col-sm-7">
+												<div style="color: #3d4451;padding-bottom: 25px;margin-bottom: 25px;border-bottom: 1px solid #dedede;">
+													<h1 style="font-size: 36px;line-height: 1.1;font-weight: 700;margin-bottom: 5px;"><span>藤田 朋輝</span> </h1>
+													<h2 style="color:#828282;font-size: 18px;font-weight: 400;line-height: 1.1;margin-bottom: 0;">tomoki fujita</h2>
+												</div>
+												<ul class="profile-list">
+													<li class="clearfix"><strong class="title">Place of Birth</strong><span class="cont">岩手県盛岡市</span></li>
+													<li class="clearfix"><strong class="title">Birthday</strong><span class="cont">1988年3月15日</span></li>
+													<li class="clearfix"><strong class="title">Hobby</strong><span class="cont">ショッピング</span></li>
+													<li class="clearfix"><strong class="title">Speciality</strong><span class="cont">新体操</span></li>
+													<li class="clearfix"><strong class="title">Favorite Words</strong><span class="cont">日々努力で！！！</span></li>
+												</ul>
+											</div>
+										
+									</div>
+								</div>
+								<div class="lqd-modal-foot"></div><!-- /.lqd-modal-foot -->
+
+							</div>
+							</div><!-- /.lqd-modal-inner -->
+						</div><!-- /.lqd-modal -->
+
+						<a href="#modal-3" data-lity="#modal-3">
+							<div class="lqd-column col-sm-6 col-md-3">
+
+								<div class="ld-tm pos-rel text-light">
+									<div class="ld-tm-img">
+										<figure>
+											<img src="katsuyuki_kasuga.jpg" alt="Team Members">
+										</figure>
+									</div><!-- /.ld-tm-img -->
+									<div class="ld-tm-info ld-overlay d-flex flex-column align-items-center justify-content-center">
+										<h3 class="ld-tm-name">春日 克之</h3>
+										<h6 class="ld-tm-pos text-uppercase">katsuyuki kasuga</h6>
+										<ul class="ld-tm-social social-icon mt-5">
+											<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+											<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+										</ul>
+									</div><!-- /.ld-tm-info -->
+								</div><!-- /.ld-team-member -->
+
+							</div><!-- /.col-md-4 -->
+						</a>
+
+						<div id="modal-3" class="lqd-modal lity-hide">
+							<div class="lqd-modal-inner">
+								<div class="section section-about">
+
+								<div class="lqd-modal-head"></div><!-- /.lqd-modal-head -->
+
+								<div style="padding: 57px 50px 15px 50px;">
+									<div class="row">
+										<div class="col-sm-5">
+											<div style="margin-right: 10%;margin-bottom: 10px;">
+												<img alt="" src="katsuyuki_kasuga.jpg" class="photo"> 
+											</div>
+										</div>
+											<div class="col-sm-7">
+												<div style="color: #3d4451;padding-bottom: 25px;margin-bottom: 25px;border-bottom: 1px solid #dedede;">
+													<h1 style="font-size: 36px;line-height: 1.1;font-weight: 700;margin-bottom: 5px;"><span>春日 克之</span> </h1>
+													<h2 style="color:#828282;font-size: 18px;font-weight: 400;line-height: 1.1;margin-bottom: 0;">Katsuyuki Kasuga</h2>
+												</div>
+												<ul class="profile-list">
+													<li class="clearfix"><strong class="title">Place of Birth</strong><span class="cont">北海道江別市</span></li>
+													<li class="clearfix"><strong class="title">Birthday</strong><span class="cont">1988年3月2日</span></li>
+													<li class="clearfix"><strong class="title">Hobby</strong><span class="cont">映画鑑賞</span></li>
+													<li class="clearfix"><strong class="title">Speciality</strong><span class="cont">アクロバット</span></li>
+													<li class="clearfix"><strong class="title">Favorite Words</strong><span class="cont">謙虚</span></li>
+												</ul>
+											</div>
+										
+									</div>
+								</div>
+								<div class="lqd-modal-foot"></div><!-- /.lqd-modal-foot -->
+
+							</div>
+							</div><!-- /.lqd-modal-inner -->
+						</div><!-- /.lqd-modal -->
+
+						<a href="#modal-4" data-lity="#modal-4">
+							<div class="lqd-column col-sm-6 col-md-3">
+
+								<div class="ld-tm pos-rel text-light">
+									<div class="ld-tm-img">
+										<figure>
+											<img src="kento_shiino.jpg" alt="Team Members">
+										</figure>
+									</div><!-- /.ld-tm-img -->
+									<div class="ld-tm-info ld-overlay d-flex flex-column align-items-center justify-content-center">
+										<h3 class="ld-tm-name">椎野 健人</h3>
+										<h6 class="ld-tm-pos text-uppercase">kento shiino</h6>
+										<ul class="ld-tm-social social-icon mt-5">
+											<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+											<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+										</ul>
+									</div><!-- /.ld-tm-info -->
+								</div><!-- /.ld-team-member -->
+
+							</div><!-- /.col-md-4 -->
+						</a>
+
+						<div id="modal-4" class="lqd-modal lity-hide">
+							<div class="lqd-modal-inner">
+								<div class="section section-about">
+
+								<div class="lqd-modal-head"></div><!-- /.lqd-modal-head -->
+
+								<div style="padding: 57px 50px 15px 50px;">
+									<div class="row">
+										<div class="col-sm-5">
+											<div style="margin-right: 10%;margin-bottom: 10px;">
+												<img alt="" src="kento_shiino.jpg" class="photo"> 
+											</div>
+										</div>
+											<div class="col-sm-7">
+												<div style="color: #3d4451;padding-bottom: 25px;margin-bottom: 25px;border-bottom: 1px solid #dedede;">
+													<h1 style="font-size: 36px;line-height: 1.1;font-weight: 700;margin-bottom: 5px;"><span>椎野 健人</span> </h1>
+													<h2 style="color:#828282;font-size: 18px;font-weight: 400;line-height: 1.1;margin-bottom: 0;">Kento Shiino</h2>
+												</div>
+												<ul class="profile-list">
+													<li class="clearfix"><strong class="title">Place of Birth</strong><span class="cont">宮城県白石市</span></li>
+													<li class="clearfix"><strong class="title">Birthday</strong><span class="cont">1989年10月28日</span></li>
+													<li class="clearfix"><strong class="title">Hobby</strong><span class="cont">DVD鑑賞</span></li>
+													<li class="clearfix"><strong class="title">Speciality</strong><span class="cont">柔軟性</span></li>
+													<li class="clearfix"><strong class="title">Favorite Words</strong><span class="cont">楽</span></li>
+												</ul>
+											</div>
+										
+									</div>
+								</div>
+								<div class="lqd-modal-foot"></div><!-- /.lqd-modal-foot -->
+
+							</div>
+							</div><!-- /.lqd-modal-inner -->
+						</div><!-- /.lqd-modal -->
+
+						<a href="#modal-5" data-lity="#modal-5">
+							<div class="lqd-column col-sm-6 col-md-3">
+
+								<div class="ld-tm pos-rel text-light">
+									<div class="ld-tm-img">
+										<figure>
+											<img src="haruki_matsuda.jpg" alt="Team Members">
+										</figure>
+									</div><!-- /.ld-tm-img -->
+									<div class="ld-tm-info ld-overlay d-flex flex-column align-items-center justify-content-center">
+										<h3 class="ld-tm-name">松田 陽樹</h3>
+										<h6 class="ld-tm-pos text-uppercase">haruki matsuda</h6>
+										<ul class="ld-tm-social social-icon mt-5">
+											<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+											<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+										</ul>
+									</div><!-- /.ld-tm-info -->
+								</div><!-- /.ld-team-member -->
+
+							</div><!-- /.col-md-4 -->
+						</a>
+
+						<div id="modal-5" class="lqd-modal lity-hide">
+							<div class="lqd-modal-inner">
+								<div class="section section-about">
+
+								<div class="lqd-modal-head"></div><!-- /.lqd-modal-head -->
+
+								<div style="padding: 57px 50px 15px 50px;">
+									<div class="row">
+										<div class="col-sm-5">
+											<div style="margin-right: 10%;margin-bottom: 10px;">
+												<img alt="" src="haruki_matsuda.jpg" class="photo"> 
+											</div>
+										</div>
+											<div class="col-sm-7">
+												<div style="color: #3d4451;padding-bottom: 25px;margin-bottom: 25px;border-bottom: 1px solid #dedede;">
+													<h1 style="font-size: 36px;line-height: 1.1;font-weight: 700;margin-bottom: 5px;"><span>松田 陽樹</span> </h1>
+													<h2 style="color:#828282;font-size: 18px;font-weight: 400;line-height: 1.1;margin-bottom: 0;">Haruki Matsuda</h2>
+												</div>
+												<ul class="profile-list">
+													<li class="clearfix"><strong class="title">Place of Birth</strong><span class="cont">青森県八戸市</span></li>
+													<li class="clearfix"><strong class="title">Birthday</strong><span class="cont">1991年3月14日</span></li>
+													<li class="clearfix"><strong class="title">Hobby</strong><span class="cont">ショッピング、ダンス</span></li>
+													<li class="clearfix"><strong class="title">Speciality</strong><span class="cont">表現</span></li>
+													<li class="clearfix"><strong class="title">Favorite Words</strong><span class="cont">自由、出会いに感謝</span></li>
+												</ul>
+											</div>
+										
+									</div>
+								</div>
+								<div class="lqd-modal-foot"></div><!-- /.lqd-modal-foot -->
+
+							</div>
+							</div><!-- /.lqd-modal-inner -->
+						</div><!-- /.lqd-modal -->
+
+						<a href="#modal-6" data-lity="#modal-6">
+							<div class="lqd-column col-sm-6 col-md-3">
+
+								<div class="ld-tm pos-rel text-light">
+									<div class="ld-tm-img">
+										<figure>
+											<img src="shota_kamei.jpg" alt="Team Members">
+										</figure>
+									</div><!-- /.ld-tm-img -->
+									<div class="ld-tm-info ld-overlay d-flex flex-column align-items-center justify-content-center">
+										<h3 class="ld-tm-name">亀井 翔太</h3>
+										<h6 class="ld-tm-pos text-uppercase">shota kamei</h6>
+										<ul class="ld-tm-social social-icon mt-5">
+											<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+											<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+										</ul>
+									</div><!-- /.ld-tm-info -->
+								</div><!-- /.ld-team-member -->
+
+							</div><!-- /.col-md-4 -->
+						</a>
+
+						<div id="modal-6" class="lqd-modal lity-hide">
+							<div class="lqd-modal-inner">
+								<div class="section section-about">
+
+								<div class="lqd-modal-head"></div><!-- /.lqd-modal-head -->
+
+								<div style="padding: 57px 50px 15px 50px;">
+									<div class="row">
+										<div class="col-sm-5">
+											<div style="margin-right: 10%;margin-bottom: 10px;">
+												<img alt="" src="shota_kamei.jpg" class="photo"> 
+											</div>
+										</div>
+											<div class="col-sm-7">
+												<div style="color: #3d4451;padding-bottom: 25px;margin-bottom: 25px;border-bottom: 1px solid #dedede;">
+													<h1 style="font-size: 36px;line-height: 1.1;font-weight: 700;margin-bottom: 5px;"><span>亀井 翔太</span> </h1>
+													<h2 style="color:#828282;font-size: 18px;font-weight: 400;line-height: 1.1;margin-bottom: 0;">Shota Kamei</h2>
+												</div>
+												<ul class="profile-list">
+													<li class="clearfix"><strong class="title">Place of Birth</strong><span class="cont">青森県八戸市</span></li>
+													<li class="clearfix"><strong class="title">Birthday</strong><span class="cont">1990年9月1日</span></li>
+													<li class="clearfix"><strong class="title">Hobby</strong><span class="cont">ゲーム</span></li>
+													<li class="clearfix"><strong class="title">Speciality</strong><span class="cont">バスケ</span></li>
+													<li class="clearfix"><strong class="title">Favorite Words</strong><span class="cont">克己心</span></li>
+												</ul>
+											</div>
+										
+									</div>
+								</div>
+								<div class="lqd-modal-foot"></div><!-- /.lqd-modal-foot -->
+
+							</div>
+							</div><!-- /.lqd-modal-inner -->
+						</div><!-- /.lqd-modal -->
+
+						<a href="#modal-7" data-lity="#modal-7">
+							<div class="lqd-column col-sm-6 col-md-3">
+
+								<div class="ld-tm pos-rel text-light">
+									<div class="ld-tm-img">
+										<figure>
+											<img src="takaya_sato.jpg" alt="Team Members">
+										</figure>
+									</div><!-- /.ld-tm-img -->
+									<div class="ld-tm-info ld-overlay d-flex flex-column align-items-center justify-content-center">
+										<h3 class="ld-tm-name">佐藤 喬也</h3>
+										<h6 class="ld-tm-pos text-uppercase">takaya sato</h6>
+										<ul class="ld-tm-social social-icon mt-5">
+											<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+											<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+										</ul>
+									</div><!-- /.ld-tm-info -->
+								</div><!-- /.ld-team-member -->
+
+							</div><!-- /.col-md-4 -->
+						</a>
+
+						<div id="modal-7" class="lqd-modal lity-hide">
+							<div class="lqd-modal-inner">
+								<div class="section section-about">
+
+								<div class="lqd-modal-head"></div><!-- /.lqd-modal-head -->
+
+								<div style="padding: 57px 50px 15px 50px;">
+									<div class="row">
+										<div class="col-sm-5">
+											<div style="margin-right: 10%;margin-bottom: 10px;">
+												<img alt="" src="takaya_sato.jpg" class="photo"> 
+											</div>
+										</div>
+											<div class="col-sm-7">
+												<div style="color: #3d4451;padding-bottom: 25px;margin-bottom: 25px;border-bottom: 1px solid #dedede;">
+													<h1 style="font-size: 36px;line-height: 1.1;font-weight: 700;margin-bottom: 5px;"><span>佐藤 喬也</span> </h1>
+													<h2 style="color:#828282;font-size: 18px;font-weight: 400;line-height: 1.1;margin-bottom: 0;">Takaya Sato</h2>
+												</div>
+												<ul class="profile-list">
+													<li class="clearfix"><strong class="title">Place of Birth</strong><span class="cont">岩手県滝沢市</span></li>
+													<li class="clearfix"><strong class="title">Birthday</strong><span class="cont">1989年3月13日</span></li>
+													<li class="clearfix"><strong class="title">Hobby</strong><span class="cont">体を動かすこと</span></li>
+													<li class="clearfix"><strong class="title">Speciality</strong><span class="cont">組技</span></li>
+													<li class="clearfix"><strong class="title">Favorite Words</strong><span class="cont">感謝・感動・感激</span></li>
+												</ul>
+											</div>
+										
+									</div>
+								</div>
+								<div class="lqd-modal-foot"></div><!-- /.lqd-modal-foot -->
+
+							</div>
+							</div><!-- /.lqd-modal-inner -->
+						</div><!-- /.lqd-modal -->
+
+						<a href="#modal-8" data-lity="#modal-8">
+							<div class="lqd-column col-sm-6 col-md-3">
+
+								<div class="ld-tm pos-rel text-light">
+									<div class="ld-tm-img">
+										<figure>
+											<img src="satoshi_ishizuka.jpg" alt="Team Members">
+										</figure>
+									</div><!-- /.ld-tm-img -->
+									<div class="ld-tm-info ld-overlay d-flex flex-column align-items-center justify-content-center">
+										<h3 class="ld-tm-name">石塚 智司</h3>
+										<h6 class="ld-tm-pos text-uppercase">satoshi ishizuka</h6>
+										<ul class="ld-tm-social social-icon mt-5">
+											<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+											<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+										</ul>
+									</div><!-- /.ld-tm-info -->
+								</div><!-- /.ld-team-member -->
+
+							</div><!-- /.col-md-4 -->
+						</a>
+
+						<div id="modal-8" class="lqd-modal lity-hide">
+							<div class="lqd-modal-inner">
+								<div class="section section-about">
+
+								<div class="lqd-modal-head"></div><!-- /.lqd-modal-head -->
+
+								<div style="padding: 57px 50px 15px 50px;">
+									<div class="row">
+										<div class="col-sm-5">
+											<div style="margin-right: 10%;margin-bottom: 10px;">
+												<img alt="" src="satoshi_ishizuka.jpg" class="photo"> 
+											</div>
+										</div>
+											<div class="col-sm-7">
+												<div style="color: #3d4451;padding-bottom: 25px;margin-bottom: 25px;border-bottom: 1px solid #dedede;">
+													<h1 style="font-size: 36px;line-height: 1.1;font-weight: 700;margin-bottom: 5px;"><span>石塚 智司</span> </h1>
+													<h2 style="color:#828282;font-size: 18px;font-weight: 400;line-height: 1.1;margin-bottom: 0;">Satoshi Ishizuka</h2>
+												</div>
+												<ul class="profile-list">
+													<li class="clearfix"><strong class="title">Place of Birth</strong><span class="cont">青森県青森市</span></li>
+													<li class="clearfix"><strong class="title">Birthday</strong><span class="cont">1987年8月19日</span></li>
+													<li class="clearfix"><strong class="title">Hobby</strong><span class="cont">人間観察</span></li>
+													<li class="clearfix"><strong class="title">Speciality</strong><span class="cont">人の輪を広げる</span></li>
+													<li class="clearfix"><strong class="title">Favorite Words</strong><span class="cont">心はそのまま技術</span></li>
+												</ul>
+											</div>
+										
+									</div>
+								</div>
+								<div class="lqd-modal-foot"></div><!-- /.lqd-modal-foot -->
+
+							</div>
+							</div><!-- /.lqd-modal-inner -->
+						</div><!-- /.lqd-modal -->
+
+						<a href="#modal-9" data-lity="#modal-9">
+							<div class="lqd-column col-sm-6 col-md-3">
+
+								<div class="ld-tm pos-rel text-light">
+									<div class="ld-tm-img">
+										<figure>
+											<img src="yuta_takahashi.jpg" alt="Team Members">
+										</figure>
+									</div><!-- /.ld-tm-img -->
+									<div class="ld-tm-info ld-overlay d-flex flex-column align-items-center justify-content-center">
+										<h3 class="ld-tm-name">高橋 雄太</h3>
+										<h6 class="ld-tm-pos text-uppercase">yuta takahashi</h6>
+										<ul class="ld-tm-social social-icon mt-5">
+											<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+											<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+										</ul>
+									</div><!-- /.ld-tm-info -->
+								</div><!-- /.ld-team-member -->
+
+							</div><!-- /.col-md-4 -->
+						</a>
+
+						<div id="modal-9" class="lqd-modal lity-hide">
+							<div class="lqd-modal-inner">
+								<div class="section section-about">
+
+								<div class="lqd-modal-head"></div><!-- /.lqd-modal-head -->
+
+								<div style="padding: 57px 50px 15px 50px;">
+									<div class="row">
+										<div class="col-sm-5">
+											<div style="margin-right: 10%;margin-bottom: 10px;">
+												<img alt="" src="yuta_takahashi.jpg" class="photo"> 
+											</div>
+										</div>
+											<div class="col-sm-7">
+												<div style="color: #3d4451;padding-bottom: 25px;margin-bottom: 25px;border-bottom: 1px solid #dedede;">
+													<h1 style="font-size: 36px;line-height: 1.1;font-weight: 700;margin-bottom: 5px;"><span>高橋 雄太</span> </h1>
+													<h2 style="color:#828282;font-size: 18px;font-weight: 400;line-height: 1.1;margin-bottom: 0;">Yuta Takahashi</h2>
+												</div>
+												<ul class="profile-list">
+													<li class="clearfix"><strong class="title">Place of Birth</strong><span class="cont">宮城県白石市</span></li>
+													<li class="clearfix"><strong class="title">Birthday</strong><span class="cont">1987年1月5日</span></li>
+													<li class="clearfix"><strong class="title">Hobby</strong><span class="cont">お酒 温泉</span></li>
+													<li class="clearfix"><strong class="title">Speciality</strong><span class="cont">新体操</span></li>
+													<li class="clearfix"><strong class="title">Favorite Words</strong><span class="cont">愛</span></li>
+												</ul>
+											</div>
+										
+									</div>
+								</div>
+								<div class="lqd-modal-foot"></div><!-- /.lqd-modal-foot -->
+
+							</div>
+							</div><!-- /.lqd-modal-inner -->
+						</div><!-- /.lqd-modal -->
+
+						<a href="#modal-10" data-lity="#modal-10">
+							<div class="lqd-column col-sm-6 col-md-3">
+
+								<div class="ld-tm pos-rel text-light">
+									<div class="ld-tm-img">
+										<figure>
+											<img src="yusuke_ishii.jpg" alt="Team Members">
+										</figure>
+									</div><!-- /.ld-tm-img -->
+									<div class="ld-tm-info ld-overlay d-flex flex-column align-items-center justify-content-center">
+										<h3 class="ld-tm-name">石井 侑佑</h3>
+										<h6 class="ld-tm-pos text-uppercase">yusuke ishii</h6>
+										<ul class="ld-tm-social social-icon mt-5">
+											<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+											<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+										</ul>
+									</div><!-- /.ld-tm-info -->
+								</div><!-- /.ld-team-member -->
+
+							</div><!-- /.col-md-4 -->
+						</a>
+
+						<div id="modal-10" class="lqd-modal lity-hide">
+							<div class="lqd-modal-inner">
+								<div class="section section-about">
+
+								<div class="lqd-modal-head"></div><!-- /.lqd-modal-head -->
+
+								<div style="padding: 57px 50px 15px 50px;">
+									<div class="row">
+										<div class="col-sm-5">
+											<div style="margin-right: 10%;margin-bottom: 10px;">
+												<img alt="" src="yusuke_ishii.jpg" class="photo"> 
+											</div>
+										</div>
+											<div class="col-sm-7">
+												<div style="color: #3d4451;padding-bottom: 25px;margin-bottom: 25px;border-bottom: 1px solid #dedede;">
+													<h1 style="font-size: 36px;line-height: 1.1;font-weight: 700;margin-bottom: 5px;"><span>石井 侑佑</span> </h1>
+													<h2 style="color:#828282;font-size: 18px;font-weight: 400;line-height: 1.1;margin-bottom: 0;">Yusyke Ishii</h2>
+												</div>
+												<ul class="profile-list">
+													<li class="clearfix"><strong class="title">Place of Birth</strong><span class="cont">福島県会津若松市</span></li>
+													<li class="clearfix"><strong class="title">Birthday</strong><span class="cont">1992年11月26日</span></li>
+												</ul>
+											</div>
+										
+									</div>
+								</div>
+								<div class="lqd-modal-foot"></div><!-- /.lqd-modal-foot -->
+
+							</div>
+							</div><!-- /.lqd-modal-inner -->
+						</div><!-- /.lqd-modal -->
+
+						<a href="#modal-11" data-lity="#modal-11">
+							<div class="lqd-column col-sm-6 col-md-3">
+
+								<div class="ld-tm pos-rel text-light">
+									<div class="ld-tm-img">
+										<figure>
+											<img src="tomoki_arai.jpg" alt="Team Members">
+										</figure>
+									</div><!-- /.ld-tm-img -->
+									<div class="ld-tm-info ld-overlay d-flex flex-column align-items-center justify-content-center">
+										<h3 class="ld-tm-name">新井 智貴</h3>
+										<h6 class="ld-tm-pos text-uppercase">tomoki arai</h6>
+										<ul class="ld-tm-social social-icon mt-5">
+											<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+											<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+										</ul>
+									</div><!-- /.ld-tm-info -->
+								</div><!-- /.ld-team-member -->
+
+							</div><!-- /.col-md-4 -->
+						</a>
+
+						<div id="modal-11" class="lqd-modal lity-hide">
+							<div class="lqd-modal-inner">
+								<div class="section section-about">
+
+								<div class="lqd-modal-head"></div><!-- /.lqd-modal-head -->
+
+								<div style="padding: 57px 50px 15px 50px;">
+									<div class="row">
+										<div class="col-sm-5">
+											<div style="margin-right: 10%;margin-bottom: 10px;">
+												<img alt="" src="tomoki_arai.jpg" class="photo"> 
+											</div>
+										</div>
+											<div class="col-sm-7">
+												<div style="color: #3d4451;padding-bottom: 25px;margin-bottom: 25px;border-bottom: 1px solid #dedede;">
+													<h1 style="font-size: 36px;line-height: 1.1;font-weight: 700;margin-bottom: 5px;"><span>新井 智貴</span> </h1>
+													<h2 style="color:#828282;font-size: 18px;font-weight: 400;line-height: 1.1;margin-bottom: 0;">Tomoki Arai</h2>
+												</div>
+												<ul class="profile-list">
+													<li class="clearfix"><strong class="title">Place of Birth</strong><span class="cont">埼玉県桶川市</span></li>
+													<li class="clearfix"><strong class="title">Birthday</strong><span class="cont">1996年5月27日</span></li>
+													<li class="clearfix"><strong class="title">Hobby</strong><span class="cont">ドラマ鑑賞 ショッピング</span></li>
+													<li class="clearfix"><strong class="title">Speciality</strong><span class="cont">ダンス　表現力</span></li>
+													<li class="clearfix"><strong class="title">Favorite Words</strong><span class="cont">想いが強いやつが勝つ</span></li>
+												</ul>
+											</div>
+										
+									</div>
+								</div>
+								<div class="lqd-modal-foot"></div><!-- /.lqd-modal-foot -->
+
+							</div>
+							</div><!-- /.lqd-modal-inner -->
+						</div><!-- /.lqd-modal -->
+
+						<a href="#modal-12" data-lity="#modal-12">
+							<div class="lqd-column col-sm-6 col-md-3">
+
+								<div class="ld-tm pos-rel text-light">
+									<div class="ld-tm-img">
+										<figure>
+											<img src="kenshiro_watanabe.jpg" alt="Team Members">
+										</figure>
+									</div><!-- /.ld-tm-img -->
+									<div class="ld-tm-info ld-overlay d-flex flex-column align-items-center justify-content-center">
+										<h3 class="ld-tm-name">渡辺 剣史郎</h3>
+										<h6 class="ld-tm-pos text-uppercase">kenshiro watanabe</h6>
+										<ul class="ld-tm-social social-icon mt-5">
+											<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+											<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+										</ul>
+									</div><!-- /.ld-tm-info -->
+								</div><!-- /.ld-team-member -->
+
+							</div><!-- /.col-md-4 -->
+						</a>
+
+						<div id="modal-12" class="lqd-modal lity-hide">
+							<div class="lqd-modal-inner">
+								<div class="section section-about">
+
+								<div class="lqd-modal-head"></div><!-- /.lqd-modal-head -->
+
+								<div style="padding: 57px 50px 15px 50px;">
+									<div class="row">
+										<div class="col-sm-5">
+											<div style="margin-right: 10%;margin-bottom: 10px;">
+												<img alt="" src="kenshiro_watanabe.jpg" class="photo"> 
+											</div>
+										</div>
+											<div class="col-sm-7">
+												<div style="color: #3d4451;padding-bottom: 25px;margin-bottom: 25px;border-bottom: 1px solid #dedede;">
+													<h1 style="font-size: 36px;line-height: 1.1;font-weight: 700;margin-bottom: 5px;"><span>渡辺 剣史郎</span> </h1>
+													<h2 style="color:#828282;font-size: 18px;font-weight: 400;line-height: 1.1;margin-bottom: 0;">Kenshiro Watanabe</h2>
+												</div>
+												<ul class="profile-list">
+													<li class="clearfix"><strong class="title">Place of Birth</strong><span class="cont">埼玉県川越市</span></li>
+													<li class="clearfix"><strong class="title">Birthday</strong><span class="cont">1995年10月27日</span></li>
+													<li class="clearfix"><strong class="title">Hobby</strong><span class="cont">パフォーマンス、映画鑑賞</span></li>
+													<li class="clearfix"><strong class="title">Speciality</strong><span class="cont">柔軟性</span></li>
+													<li class="clearfix"><strong class="title">Favorite Words</strong><span class="cont">笑顔</span></li>
+												</ul>
+											</div>
+										
+									</div>
+								</div>
+								<div class="lqd-modal-foot"></div><!-- /.lqd-modal-foot -->
+
+							</div>
+							</div><!-- /.lqd-modal-inner -->
+						</div><!-- /.lqd-modal -->
+
+						<a href="#modal-13" data-lity="#modal-13">
+							<div class="lqd-column col-sm-6 col-md-3">
+
+								<div class="ld-tm pos-rel text-light">
+									<div class="ld-tm-img">
+										<figure>
+											<img src="shun_ueno.jpg" alt="Team Members">
+										</figure>
+									</div><!-- /.ld-tm-img -->
+									<div class="ld-tm-info ld-overlay d-flex flex-column align-items-center justify-content-center">
+										<h3 class="ld-tm-name">植野 洵</h3>
+										<h6 class="ld-tm-pos text-uppercase">shun ueno</h6>
+										<ul class="ld-tm-social social-icon mt-5">
+											<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+											<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+										</ul>
+									</div><!-- /.ld-tm-info -->
+								</div><!-- /.ld-team-member -->
+
+							</div><!-- /.col-md-4 -->
+						</a>
+
+						<div id="modal-13" class="lqd-modal lity-hide">
+							<div class="lqd-modal-inner">
+								<div class="section section-about">
+
+								<div class="lqd-modal-head"></div><!-- /.lqd-modal-head -->
+
+								<div style="padding: 57px 50px 15px 50px;">
+									<div class="row">
+										<div class="col-sm-5">
+											<div style="margin-right: 10%;margin-bottom: 10px;">
+												<img alt="" src="shun_ueno.jpg" class="photo"> 
+											</div>
+										</div>
+											<div class="col-sm-7">
+												<div style="color: #3d4451;padding-bottom: 25px;margin-bottom: 25px;border-bottom: 1px solid #dedede;">
+													<h1 style="font-size: 36px;line-height: 1.1;font-weight: 700;margin-bottom: 5px;"><span>植野　洵</span> </h1>
+													<h2 style="color:#828282;font-size: 18px;font-weight: 400;line-height: 1.1;margin-bottom: 0;">Shun Ueno</h2>
+												</div>
+												<ul class="profile-list">
+													<li class="clearfix"><strong class="title">Birthday</strong><span class="cont">1995年6月26日</span></li>
+													<li class="clearfix"><strong class="title">Hobby</strong><span class="cont">ショッピング</span></li>
+													<li class="clearfix"><strong class="title">Speciality</strong><span class="cont">映画鑑賞</span></li>
+													<li class="clearfix"><strong class="title">Favorite Words</strong><span class="cont">自由</span></li>
+												</ul>
+											</div>
+										
+									</div>
+								</div>
+								<div class="lqd-modal-foot"></div><!-- /.lqd-modal-foot -->
+
+							</div>
+							</div><!-- /.lqd-modal-inner -->
+						</div><!-- /.lqd-modal -->
+
+					</div><!-- /.row -->
+				</div><!-- /.container -->
+			</section>
+
+			<section id="media" class="vc_row">
+				<div class="container">
+					<div class="row" style="text-align: center;">
+
+						<div class="lqd-column col-md-8 col-md-offset-2">
+
+							<header class="fancy-title text-center mb-60">
+								<h2>男子新体操関連リンク</h2>
+							</header>
+
+						</div><!-- /.lqd-column col-md-8 col-md-offset-2 -->
+
+						<div class="lqd-column col-md-4 col-sm-6">
+
+							<div class="fancy-box fancy-box-heading-custom fancy-box-classic">
+								<div class="cb-img-container mb-4">
+									<figure class="fancy-box-image loaded">
+										<img src="assets/demo/misc/fb-28.jpg" alt="No Coding">
 									</figure>
-								</div><!-- /.ld-tm-img -->
-								<div class="ld-tm-info ld-overlay d-flex flex-column align-items-center justify-content-center">
-									<h3 class="ld-tm-name">大舌 恭平</h3>
-									<h6 class="ld-tm-pos text-uppercase">kyohei ohshita</h6>
-									<ul class="ld-tm-social social-icon mt-5">
-										<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-										<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-									</ul>
-								</div><!-- /.ld-tm-info -->
-							</div><!-- /.ld-team-member -->
+									<div class="cb-img-btn">
+										<div class="cb-img-btn-bg"></div>
+										<a href="#" class="liquid-overlay-link"></a>
+										<div class="cb-img-btn-inner">
+											<a href="#" class="btn btn-naked ld_button_5c7fc49d34c89">
+												<span>
+													<span class="btn-txt">詳しく見る</span>
+													<span class="btn-icon"><i class="fa fa-angle-right"></i></span>
+												</span>
+											</a>
+										</div><!-- /.cb-img-btn-bg -->
+									</div><!-- /.cb-img=btn -->
+								</div><!-- /.cb-img-container -->
+								<div class="fancy-box-contents">
+									<div class="fancy-box-header">
+										<h3 class="font-size-19 mt-30 mb-10">大会情報</h3>
+										<p>「青森から全国、そして世界へ」の志と、アスリートとして魂を育んだ青森県の「青（BLUE）」を胸に、2010年に結成。</p>
+									</div><!-- /.fancy-box-header -->
+								</div><!-- /.fancy-box-contents -->
+							</div><!-- /.fancy-box -->
 
-						</div><!-- /.col-md-4 -->
+						</div><!-- /.lqd-column col-md-4 -->
 
-						<div class="lqd-column col-md-3">
+						<div class="lqd-column col-md-4 col-sm-6">
 
-							<div class="ld-tm pos-rel text-light">
-								<div class="ld-tm-img">
-									<figure>
-										<img src="tomoki_fujita.jpg" alt="Team Members">
+							<div class="fancy-box fancy-box-heading-custom fancy-box-classic">
+								<div class="cb-img-container mb-4">
+									<figure class="fancy-box-image loaded">
+										<img src="assets/demo/misc/fb-29.jpg" alt="No Coding">
 									</figure>
-								</div><!-- /.ld-tm-img -->
-								<div class="ld-tm-info ld-overlay d-flex flex-column align-items-center justify-content-center">
-									<h3 class="ld-tm-name">藤田 朋輝</h3>
-									<h6 class="ld-tm-pos text-uppercase">tomoki fujita</h6>
-									<ul class="ld-tm-social social-icon mt-5">
-										<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-										<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-									</ul>
-								</div><!-- /.ld-tm-info -->
-							</div><!-- /.ld-team-member -->
+									<div class="cb-img-btn">
+										<div class="cb-img-btn-bg"></div>
+										<a href="#" class="liquid-overlay-link"></a>
+										<div class="cb-img-btn-inner">
+											<a href="#" class="btn btn-naked ld_button_5c7fc49d34c89">
+												<span>
+													<span class="btn-txt">詳しく見る</span>
+													<span class="btn-icon"><i class="fa fa-angle-right"></i></span>
+												</span>
+											</a>
+										</div><!-- /.cb-img-btn-bg -->
+									</div><!-- /.cb-img=btn -->
+								</div><!-- /.cb-img-container -->
+								<div class="fancy-box-contents">
+									<div class="fancy-box-header">
+										<h3 class="font-size-19 mt-30 mb-10">学生連盟</h3>
+										<p>「青森から全国、そして世界へ」の志と、アスリートとして魂を育んだ青森県の「青（BLUE）」を胸に、2010年に結成。</p>
+									</div><!-- /.fancy-box-header -->
+								</div><!-- /.fancy-box-contents -->
+							</div><!-- /.fancy-box -->
 
-						</div><!-- /.col-md-4 -->
+						</div><!-- /.lqd-column col-md-4 -->
 
-						<div class="lqd-column col-md-3">
+						<div class="lqd-column col-md-4 col-sm-6">
 
-							<div class="ld-tm pos-rel text-light">
-								<div class="ld-tm-img">
-									<figure>
-										<img src="katsuyuki_kasuga.jpg" alt="Team Members">
+							<div class="fancy-box fancy-box-heading-custom fancy-box-classic">
+								<div class="cb-img-container mb-4">
+									<figure class="fancy-box-image loaded">
+										<img src="assets/demo/misc/fb-30.jpg" alt="No Coding">
 									</figure>
-								</div><!-- /.ld-tm-img -->
-								<div class="ld-tm-info ld-overlay d-flex flex-column align-items-center justify-content-center">
-									<h3 class="ld-tm-name">春日 克之</h3>
-									<h6 class="ld-tm-pos text-uppercase">katsuyuki kasuga</h6>
-									<ul class="ld-tm-social social-icon mt-5">
-										<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-										<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-									</ul>
-								</div><!-- /.ld-tm-info -->
-							</div><!-- /.ld-team-member -->
+									<div class="cb-img-btn">
+										<div class="cb-img-btn-bg"></div>
+										<a href="#" class="liquid-overlay-link"></a>
+										<div class="cb-img-btn-inner">
+											<a href="#" class="btn btn-naked ld_button_5c7fc49d34c89">
+												<span>
+													<span class="btn-txt">詳しく見る</span>
+													<span class="btn-icon"><i class="fa fa-angle-right"></i></span>
+												</span>
+											</a>
+										</div><!-- /.cb-img-btn-bg -->
+									</div><!-- /.cb-img=btn -->
+								</div><!-- /.cb-img-container -->
+								<div class="fancy-box-contents">
+									<div class="fancy-box-header">
+										<h3 class="font-size-19 mt-30 mb-10">男子新体操BLUE TOKYOオススメリンク</h3>
+										<p>「青森から全国、そして世界へ」の志と、アスリートとして魂を育んだ青森県の「青（BLUE）」を胸に、2010年に結成。</p>
+									</div><!-- /.fancy-box-header -->
+								</div><!-- /.fancy-box-contents -->
+							</div><!-- /.fancy-box -->
 
-						</div><!-- /.col-md-4 -->
+						</div><!-- /.lqd-column col-md-4 -->
 
-						<div class="lqd-column col-md-3">
+						<div class="lqd-column col-md-4 col-sm-6">
 
-							<div class="ld-tm pos-rel text-light">
-								<div class="ld-tm-img">
-									<figure>
-										<img src="kento_shiino.jpg" alt="Team Members">
+							<div class="fancy-box fancy-box-heading-custom fancy-box-classic">
+								<div class="cb-img-container mb-4">
+									<figure class="fancy-box-image loaded">
+										<img src="assets/demo/misc/fb-28.jpg" alt="No Coding">
 									</figure>
-								</div><!-- /.ld-tm-img -->
-								<div class="ld-tm-info ld-overlay d-flex flex-column align-items-center justify-content-center">
-									<h3 class="ld-tm-name">椎野 健人</h3>
-									<h6 class="ld-tm-pos text-uppercase">kento shiino</h6>
-									<ul class="ld-tm-social social-icon mt-5">
-										<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-										<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-									</ul>
-								</div><!-- /.ld-tm-info -->
-							</div><!-- /.ld-team-member -->
+									<div class="cb-img-btn">
+										<div class="cb-img-btn-bg"></div>
+										<a href="#" class="liquid-overlay-link"></a>
+										<div class="cb-img-btn-inner">
+											<a href="#" class="btn btn-naked ld_button_5c7fc49d34c89">
+												<span>
+													<span class="btn-txt">詳しく見る</span>
+													<span class="btn-icon"><i class="fa fa-angle-right"></i></span>
+												</span>
+											</a>
+										</div><!-- /.cb-img-btn-bg -->
+									</div><!-- /.cb-img=btn -->
+								</div><!-- /.cb-img-container -->
+								<div class="fancy-box-contents">
+									<div class="fancy-box-header">
+										<h3 class="font-size-19 mt-30 mb-10">応援男子新体操</h3>
+										<p>「青森から全国、そして世界へ」の志と、アスリートとして魂を育んだ青森県の「青（BLUE）」を胸に、2010年に結成。</p>
+									</div><!-- /.fancy-box-header -->
+								</div><!-- /.fancy-box-contents -->
+							</div><!-- /.fancy-box -->
 
-						</div><!-- /.col-md-4 -->
+						</div><!-- /.lqd-column col-md-4 -->
 
-						<div class="lqd-column col-md-3">
+						<div class="lqd-column col-md-4 col-sm-6">
 
-							<div class="ld-tm pos-rel text-light">
-								<div class="ld-tm-img">
-									<figure>
-										<img src="haruki_matsuda.jpg" alt="Team Members">
+							<div class="fancy-box fancy-box-heading-custom fancy-box-classic">
+								<div class="cb-img-container mb-4">
+									<figure class="fancy-box-image loaded">
+										<img src="assets/demo/misc/fb-29.jpg" alt="No Coding">
 									</figure>
-								</div><!-- /.ld-tm-img -->
-								<div class="ld-tm-info ld-overlay d-flex flex-column align-items-center justify-content-center">
-									<h3 class="ld-tm-name">松田 陽樹</h3>
-									<h6 class="ld-tm-pos text-uppercase">haruki matsuda</h6>
-									<ul class="ld-tm-social social-icon mt-5">
-										<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-										<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-									</ul>
-								</div><!-- /.ld-tm-info -->
-							</div><!-- /.ld-team-member -->
+									<div class="cb-img-btn">
+										<div class="cb-img-btn-bg"></div>
+										<a href="#" class="liquid-overlay-link"></a>
+										<div class="cb-img-btn-inner">
+											<a href="#" class="btn btn-naked ld_button_5c7fc49d34c89">
+												<span>
+													<span class="btn-txt">詳しく見る</span>
+													<span class="btn-icon"><i class="fa fa-angle-right"></i></span>
+												</span>
+											</a>
+										</div><!-- /.cb-img-btn-bg -->
+									</div><!-- /.cb-img=btn -->
+								</div><!-- /.cb-img-container -->
+								<div class="fancy-box-contents">
+									<div class="fancy-box-header">
+										<h3 class="font-size-19 mt-30 mb-10">アニメ</h3>
+										<p>「青森から全国、そして世界へ」の志と、アスリートとして魂を育んだ青森県の「青（BLUE）」を胸に、2010年に結成。</p>
+									</div><!-- /.fancy-box-header -->
+								</div><!-- /.fancy-box-contents -->
+							</div><!-- /.fancy-box -->
 
-						</div><!-- /.col-md-4 -->
+						</div><!-- /.lqd-column col-md-4 -->
 
-						<div class="lqd-column col-md-3">
+						<div class="lqd-column col-md-4 col-sm-6">
 
-							<div class="ld-tm pos-rel text-light">
-								<div class="ld-tm-img">
-									<figure>
-										<img src="shota_kamei.jpg" alt="Team Members">
+							<div class="fancy-box fancy-box-heading-custom fancy-box-classic">
+								<div class="cb-img-container mb-4">
+									<figure class="fancy-box-image loaded">
+										<img src="assets/demo/misc/fb-30.jpg" alt="No Coding">
 									</figure>
-								</div><!-- /.ld-tm-img -->
-								<div class="ld-tm-info ld-overlay d-flex flex-column align-items-center justify-content-center">
-									<h3 class="ld-tm-name">亀井 翔太</h3>
-									<h6 class="ld-tm-pos text-uppercase">shota kamei</h6>
-									<ul class="ld-tm-social social-icon mt-5">
-										<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-										<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-									</ul>
-								</div><!-- /.ld-tm-info -->
-							</div><!-- /.ld-team-member -->
+									<div class="cb-img-btn">
+										<div class="cb-img-btn-bg"></div>
+										<a href="#" class="liquid-overlay-link"></a>
+										<div class="cb-img-btn-inner">
+											<a href="#" class="btn btn-naked ld_button_5c7fc49d34c89">
+												<span>
+													<span class="btn-txt">詳しく見る</span>
+													<span class="btn-icon"><i class="fa fa-angle-right"></i></span>
+												</span>
+											</a>
+										</div><!-- /.cb-img-btn-bg -->
+									</div><!-- /.cb-img=btn -->
+								</div><!-- /.cb-img-container -->
+								<div class="fancy-box-contents">
+									<div class="fancy-box-header">
+										<h3 class="font-size-19 mt-30 mb-10">タンブリング</h3>
+										<p>「青森から全国、そして世界へ」の志と、アスリートとして魂を育んだ青森県の「青（BLUE）」を胸に、2010年に結成。</p>
+									</div><!-- /.fancy-box-header -->
+								</div><!-- /.fancy-box-contents -->
+							</div><!-- /.fancy-box -->
 
-						</div><!-- /.col-md-4 -->
-
-						<div class="lqd-column col-md-3">
-
-							<div class="ld-tm pos-rel text-light">
-								<div class="ld-tm-img">
-									<figure>
-										<img src="takaya_sato.jpg" alt="Team Members">
-									</figure>
-								</div><!-- /.ld-tm-img -->
-								<div class="ld-tm-info ld-overlay d-flex flex-column align-items-center justify-content-center">
-									<h3 class="ld-tm-name">佐藤 喬也</h3>
-									<h6 class="ld-tm-pos text-uppercase">takaya sato</h6>
-									<ul class="ld-tm-social social-icon mt-5">
-										<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-										<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-									</ul>
-								</div><!-- /.ld-tm-info -->
-							</div><!-- /.ld-team-member -->
-
-						</div><!-- /.col-md-4 -->
-
-						<div class="lqd-column col-md-3">
-
-							<div class="ld-tm pos-rel text-light">
-								<div class="ld-tm-img">
-									<figure>
-										<img src="satoshi_ishizuka.jpg" alt="Team Members">
-									</figure>
-								</div><!-- /.ld-tm-img -->
-								<div class="ld-tm-info ld-overlay d-flex flex-column align-items-center justify-content-center">
-									<h3 class="ld-tm-name">石塚 智司</h3>
-									<h6 class="ld-tm-pos text-uppercase">satoshi ishizuka</h6>
-									<ul class="ld-tm-social social-icon mt-5">
-										<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-										<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-									</ul>
-								</div><!-- /.ld-tm-info -->
-							</div><!-- /.ld-team-member -->
-
-						</div><!-- /.col-md-4 -->
-
-						<div class="lqd-column col-md-3">
-
-							<div class="ld-tm pos-rel text-light">
-								<div class="ld-tm-img">
-									<figure>
-										<img src="yuta_takahashi.jpg" alt="Team Members">
-									</figure>
-								</div><!-- /.ld-tm-img -->
-								<div class="ld-tm-info ld-overlay d-flex flex-column align-items-center justify-content-center">
-									<h3 class="ld-tm-name">高橋 雄太</h3>
-									<h6 class="ld-tm-pos text-uppercase">yuta takahashi</h6>
-									<ul class="ld-tm-social social-icon mt-5">
-										<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-										<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-									</ul>
-								</div><!-- /.ld-tm-info -->
-							</div><!-- /.ld-team-member -->
-
-						</div><!-- /.col-md-4 -->
-
-						<div class="lqd-column col-md-3">
-
-							<div class="ld-tm pos-rel text-light">
-								<div class="ld-tm-img">
-									<figure>
-										<img src="yusuke_ishii.jpg" alt="Team Members">
-									</figure>
-								</div><!-- /.ld-tm-img -->
-								<div class="ld-tm-info ld-overlay d-flex flex-column align-items-center justify-content-center">
-									<h3 class="ld-tm-name">石井 侑佑</h3>
-									<h6 class="ld-tm-pos text-uppercase">yusuke ishii</h6>
-									<ul class="ld-tm-social social-icon mt-5">
-										<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-										<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-									</ul>
-								</div><!-- /.ld-tm-info -->
-							</div><!-- /.ld-team-member -->
-
-						</div><!-- /.col-md-4 -->
-
-						<div class="lqd-column col-md-3">
-
-							<div class="ld-tm pos-rel text-light">
-								<div class="ld-tm-img">
-									<figure>
-										<img src="tomoki_arai.jpg" alt="Team Members">
-									</figure>
-								</div><!-- /.ld-tm-img -->
-								<div class="ld-tm-info ld-overlay d-flex flex-column align-items-center justify-content-center">
-									<h3 class="ld-tm-name">新井 智貴</h3>
-									<h6 class="ld-tm-pos text-uppercase">tomoki arai</h6>
-									<ul class="ld-tm-social social-icon mt-5">
-										<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-										<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-									</ul>
-								</div><!-- /.ld-tm-info -->
-							</div><!-- /.ld-team-member -->
-
-						</div><!-- /.col-md-4 -->
-
-						<div class="lqd-column col-md-3">
-
-							<div class="ld-tm pos-rel text-light">
-								<div class="ld-tm-img">
-									<figure>
-										<img src="kenshiro_watanabe.jpg" alt="Team Members">
-									</figure>
-								</div><!-- /.ld-tm-img -->
-								<div class="ld-tm-info ld-overlay d-flex flex-column align-items-center justify-content-center">
-									<h3 class="ld-tm-name">渡辺 剣史郎</h3>
-									<h6 class="ld-tm-pos text-uppercase">kenshiro watanabe</h6>
-									<ul class="ld-tm-social social-icon mt-5">
-										<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-										<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-									</ul>
-								</div><!-- /.ld-tm-info -->
-							</div><!-- /.ld-team-member -->
-
-						</div><!-- /.col-md-4 -->
-
-						<div class="lqd-column col-md-3">
-
-							<div class="ld-tm pos-rel text-light">
-								<div class="ld-tm-img">
-									<figure>
-										<img src="shun_ueno.jpg"" alt="Team Members">
-									</figure>
-								</div><!-- /.ld-tm-img -->
-								<div class="ld-tm-info ld-overlay d-flex flex-column align-items-center justify-content-center">
-									<h3 class="ld-tm-name">植野 洵</h3>
-									<h6 class="ld-tm-pos text-uppercase">shun ueno</h6>
-									<ul class="ld-tm-social social-icon mt-5">
-										<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-										<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-									</ul>
-								</div><!-- /.ld-tm-info -->
-							</div><!-- /.ld-team-member -->
-
-						</div><!-- /.col-md-4 -->
+						</div><!-- /.lqd-column col-md-4 -->
 
 					</div><!-- /.row -->
 				</div><!-- /.container -->
@@ -727,7 +1212,7 @@
 						<div class="lqd-column col-md-6 col-md-offset-3">
 
 							<header class="fancy-title text-center">
-								<h2 class="h3 mb-4">Goods(たくさんあるのでスライダー形式のほうが良いかも？)</h2>
+								<h2 class="h3 mb-4">レッスン情報</h2>
 								<!--<p class="font-size-17 lh-185">A digital marketing company that can produce custom-built websites and mobile applications.</p>-->
 							</header>
 
@@ -754,7 +1239,7 @@
 												</figure>
 											</div>
 											<div class="ld-tm-info ld-overlay d-flex flex-column align-items-center justify-content-center bg-gradient-black-transparent-bt">
-												<h3 class="ld-tm-name">マスク</h3>
+												<h3 class="ld-tm-name">ONE</h3>
 												<!-- <h6 class="ld-tm-pos text-uppercase">CEO</h6>
 												<ul class="ld-tm-social social-icon mt-5">
 													<li><a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -776,7 +1261,7 @@
 												</figure>
 											</div>
 											<div class="ld-tm-info ld-overlay d-flex flex-column align-items-center justify-content-center bg-gradient-black-transparent-bt">
-												<h3 class="ld-tm-name">Tシャツ</h3>
+												<h3 class="ld-tm-name">しんくれ</h3>
 											</div><!-- /.ld-tm-info -->
 										</div><!-- /.ld-tm -->
 
@@ -1000,6 +1485,12 @@
 
 			</section>
 			
+			<!-- <ul>
+				<li><a href="https://translate.google.com/translate?sl=ja&tl=en&u=https://www.site-shokunin.com/blog/">English</a></li>
+				<li><a href="https://translate.google.com/translate?sl=ja&tl=zh-CN&u=https://www.site-shokunin.com/blog/">Chinese Simplified</a></li>
+				<li><a href="https://translate.google.com/translate?sl=ja&tl=ko&u=https://www.site-shokunin.com/blog/">Korea</a></li>
+			</ul> -->
+			
 		</main><!-- /#content.content -->
 		
 		<footer class="main-footer	">
@@ -1029,6 +1520,386 @@
 		</footer><!-- /.main-footer -->
 		
 	</div><!-- /#wrap -->
+
+	<style>
+						
+		.section-about .profile {
+			padding: 57px 50px 15px 50px;
+		}
+
+		.section-about .profile-photo {
+			margin-right: 10%;
+			margin-bottom: 10px;
+		}
+
+		.section-about .profile-info {
+			color: #3d4451;
+			padding-bottom: 25px;
+			margin-bottom: 25px;
+			border-bottom: 1px solid #dedede;
+		}
+
+		.section-about .profile-title {
+			font-size: 36px;
+			line-height: 1.1;
+			font-weight: 700;
+			margin-bottom: 5px;
+		}
+
+		.section-about .profile-title span {
+			font-weight: 300;
+		}
+
+		.section-about .profile-position {
+			font-size: 18px;
+			font-weight: 400;
+			line-height: 1.1;
+			margin-bottom: 0;
+		}
+
+		.profile-photo {
+			position: relative;
+			cursor: pointer;
+		}
+
+		.profile-photo img {
+			width: 100%;
+			display: block;
+		}
+
+		.profile-photo .photo-hover {
+			position: absolute;
+			left: 0;
+			top: 0;
+			width: 100%;
+			height: 100%;
+			opacity: 0;
+			visibility: hidden;
+			transition: opacity .2s ease-out,visibility .2s ease-out;
+		}
+
+		.profile-photo:hover .photo-hover {
+			opacity: 1;
+			visibility: visible;
+		}
+
+		.profile-items {
+			margin-bottom: 18px;
+		}
+
+		.profile-preword {
+			float: left;
+			margin-bottom: 10px;
+		}
+
+		.profile-preword span {
+			color: #fff;
+			font-size: 14px;
+			font-weight: 700;
+			line-height: 1.1;
+			display: inline-block;
+			padding: 7px 12px;
+			text-transform: uppercase;
+			position: relative;
+		}
+
+		.profile-preword span:before {
+			content: '';
+			width: 0;
+			height: 0;
+			top: 100%;
+			left: 5px;
+			display: block;
+			position: absolute;
+			border-style: solid;
+			border-width: 0 0 8px 8px;
+			border-color: transparent;
+		}
+
+		.profile-share {
+			float: right;
+			line-height: 1;
+			margin-bottom: 10px;
+		}
+
+		#profileShareBtn  {
+			border: 0;
+			margin: 0;
+			padding: 0;
+			background: transparent;
+			display: inline-block;
+			vertical-align: middle;
+			-webkit-transition: all 250ms ease-out;
+			-moz-transition: all 250ms ease-out;
+			transition: all 250ms ease-out;
+		}
+
+		#profileShareBtn:hover {
+			opacity: 0.7;
+		}
+
+		#profileShareWrap {
+			visibility: hidden;
+			opacity: 0;
+			-webkit-transition: opacity 250ms ease-out;
+			-moz-transition: opacity 250ms ease-out;
+			transition: opacity 250ms ease-out;
+		}
+
+		#profileShareWrap.opened {
+			visibility: visible;
+			opacity: 1;
+		}
+
+		.profile-share .rsicon {
+			color: #b6b4b5;
+			font-size: 29px;
+			line-height: 29px;
+			vertical-align: top;
+		}
+
+		.profile-share-wrap {
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			z-index: 9999;
+			position: fixed;
+			background: rgba(0,0,0,0.85);
+			overflow-y: auto;
+		}
+
+		.profile-share-table {
+			display: table;
+			height: 100%;
+			width: 100%;
+		}
+
+		.profile-share-cell {
+			display: table-cell;
+			text-align: center;
+			vertical-align: middle;
+			padding: 50px 20px;
+		}
+
+		#profileShareClose {
+			padding: 0;
+			margin: 0;
+			border: none;
+			background: transparent;
+			position: absolute;
+			right: -60px;
+			top: 0;
+			width: 40px;
+			height: 40px;
+			border: 1px solid #fff;
+			color: #fff;
+			font-size: 18px;
+		}
+
+		#profileShareClose .rsicon {
+			line-height: 38px;
+		}
+
+		#profileShareWrap {
+			color: #3d4451;
+		}
+
+		.profile-share-inner {
+			background: #fff;
+			padding: 80px 20px;
+			max-width: 500px;
+			width: 100%;
+			display: inline-block;
+			position: relative;
+		}
+
+		.profile-share-title {
+			font-weight: 700;
+			margin-bottom: 40px;
+		}
+
+		.profile-share-list {
+			margin: 0;
+			padding: 0;
+			list-style: none;
+		}
+
+		.profile-share-list li {
+			display: inline-block;
+			margin: 10px;
+		}
+
+		.profile-share-list a {
+			display: inline-block;
+			width: 50px;
+			height: 50px;
+			line-height: 50px;
+			font-size: 26px;
+			color: #ffffff !important;
+			background-color: #1f1f1f;
+
+			-webkit-border-radius: 50%;
+			-moz-border-radius: 50%;
+			border-radius: 50%;
+
+			-webkit-transition: opacity 250ms ease-out;
+			-moz-transition: opacity 250ms ease-out;
+			transition: opacity 250ms ease-out;
+		}
+
+		.profile-share-list a:hover {
+			text-decoration: none;
+			opacity: 0.8;
+		}
+
+		.profile-share-list .rsicon-facebook {
+			background-color: #2d5f9a;
+		}
+
+		.profile-share-list .rsicon-pinterest {
+			background-color: #be1e2d;
+		}
+
+		.profile-share-list .rsicon-twitter {
+			background-color: #00c3f3;
+		}
+
+		.profile-share-list .rsicon-youtube {
+			background-color: #bb0000;
+		}
+
+		.profile-list {
+			margin: 0;
+			padding: 0;
+			list-style: none;
+		}
+
+		.profile-list li {
+			margin-bottom: 13px;
+		}
+
+		.profile-list .title {
+			display: block;
+			width: 120px;
+			float: left;
+			color: #333333;
+			font-size: 12px;
+			font-weight: 700;
+			line-height: 20px;
+			text-transform: uppercase;
+		}
+
+		.profile-list .cont {
+			display: block;
+			margin-left: 125px;
+			font-size: 15px;
+			font-weight: 400;
+			line-height: 20px;
+			color: #9da0a7;
+		}
+
+		.profile-list .cont a {
+			color: inherit;
+		}
+
+		.profile-list .cont.profile-vacation {
+			font-size: 14px;
+		}
+
+		.profile-list .button {
+			color: #fff;
+			font-size: 12px;
+			font-weight: 700;
+			line-height: 1;
+			text-transform: none;
+			padding: 5px 8px;
+			display: inline-block;
+			position: relative;
+			top: -2px;
+			-webkit-border-radius: 3px;
+			-moz-border-radius: 3px;
+			border-radius: 3px;
+		}
+
+		.profile-list .rsicon {
+			margin-right: 10px;
+			vertical-align: baseline;
+		}
+
+		.profile-social {
+			padding: 15px 0;
+		}
+
+		@media (max-width: 992px) {
+			.section-about .profile {
+				padding: 50px 40px 15px 40px;
+			}
+
+			.section-about .profile-photo {
+				margin-right: 0;
+				margin-bottom: 30px;
+			}
+		}
+
+		@media (max-width: 767px) {
+			#profileShareClose {
+				top: -60px;
+				right: 0;
+			}
+			.section-about {
+				padding-top: 0;
+			}
+
+			.section-about .profile {
+				padding: 30px 20px 15px 20px;
+			}
+
+			.section-about .profile-photo {
+				max-width: 400px;
+				margin-left: auto;
+				margin-right: auto;
+			}
+
+			.profile-info {
+				text-align: center;
+			}
+
+			.profile-preword {
+				float: none;
+			}
+
+			.profile-preword span {
+				min-width: 150px;
+				padding: 9px 12px;
+			}
+
+			.profile-list .title, .profile-list .cont {
+				width: 100%;
+				float: none;
+				line-height: 1.2;
+			}
+
+			.profile-list .title {
+				margin-bottom: 3px;
+			}
+
+			.profile-list .cont {
+				margin-left: 0;
+				margin-bottom: 15px;
+			}
+		}
+
+		@media (max-width: 480px) {
+			.section-about .row > div {
+				width: 100%;
+			}
+
+			.section-about .profile-title {
+				font-size: 28px;
+			}
+		}
+		</style>
 
 	<script src="//maps.googleapis.com/maps/api/js?key={YOUR_API_KEY}"></script>
 
